@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="out/AJCSurvey-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="out/AJCSurvey-ODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-model href="../TEI-ODD-AJC/out/AJCSurvey-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -11,7 +11,7 @@
             <editor role="lead">Alice Rong</editor>
             <editor role="lead">Mia Borgia</editor>
             <!--ebb: I supplied code from Alice's and Mia's files for this class file, and added some markup of my own. As you continue with this file, add your name as an editor here!-->
-            <editor></editor>
+            <editor/>
             <editor role="support" xml:id="ebb">Elisa Beshero-Bondar</editor>
             <editor>Fall 2020 DIGIT 110 class in Text Encoding at Penn State Erie, The Behrend
                College</editor>
@@ -76,8 +76,8 @@
                </ab>
             </div2>
             <div2 type="question" n="4">
-               <ab n="1"> 4. Length of residence in this city <add hand="#AJC"> 45 years.</add> state of
-                  longest residence______ </ab>
+               <ab n="1"> 4. Length of residence in this city <add hand="#AJC"> 45 years.</add>
+                  state of longest residence<space/></ab>
             </div2>
             <div2 type="question" n="5">
                <ab> 5. Age <add hand="#AJC">72</add> sex <add hand="#AJC">F</add> Date of birth <add
@@ -89,9 +89,11 @@
                <ab> Marital status: Single <add hand="#AJC">Widowed</add> Married <add hand="#AJC"
                         ><metamark function="checkmark"/></add> Date of marriage <add hand="#AJC"
                      >June 21, 1877</add> Age at marriage <add hand="#AJC">17</add>
-                  Divorced_____Date_______Separated_______Date______Widowed <add hand="#AJC"
+                  Divorced<space/>Date<space/>Separated<space/>Date<space/>Widowed <add hand="#AJC"
                         ><metamark function="checkmark"/></add> Date <add hand="#AJC">Sept 27,
-                     1879</add> Deserted_____Date_________Remarried______Date___________<!--ebb: Does this need more structure to help indicate what AJC left blank? --> </ab>
+                     1879</add>
+                  Deserted<space/>Date<space/>Remarried<space/>Date<space/><!--ebb: Does this need more structure to help indicate what AJC left blank? -->
+               </ab>
             </div2>
             <div2 type="question" n="7">
                <table rend="boxed" rows="9" cols="4">
@@ -205,12 +207,13 @@
             </div2>
             <div2 type="question" n="9">
                <ab> 9. Present annual salary <add hand="#AJC">$50.00</add> or yearly net income,
-                  deducting expenses of earning except income tax_________or kindly check the class
+                  deducting expenses of earning except income tax<space/>or kindly check the class
                   within which your net income falls: </ab>
-               <ab> Under $500__________$500- $999__________$1000-$1499 <add hand="#AJC"><metamark
+               <ab> Under $500<space/>$500- $999<space/>$1000-$1499 <add hand="#AJC"><metamark
                         function="checkmark"/></add>
-                  $1500-$1999__________$2000-$2499__________$2500-$2999__________$3000-$3499___________$3500-$3999___________$4000-$4499__________$4500-$4999___________$5000-$5999__________$6000-$6999___________$7000-$7999__________$8000-$8999__________$9000-$9999__________$10,000
-                  and over________ </ab>
+                  $1500-$1999<space/>$2000-$2499<space/>$2500-$2999<space/>$3000-$3499<space/>$3500-$3999<space/>$4000-$4499<space/>$4500-$4999<space/>$5000-$5999<space/>$6000-$6999<space/>$7000-$7999<space/>$8000-$8999<space/>$9000-$9999<space/>$10,000
+                  and over<space/>
+               </ab>
             </div2>
             <div2 type="question" n="10">
                <ab> Of what college or professional school are you a graduate? <add hand="#AJC"
@@ -283,8 +286,8 @@
                   </row>
                </table>
             </div2>
+            <pb n="1"/>
             <div2 type="question" n="12">
-               <cb n="1"/>
                <list>
                   <head>Means of securing present employment (underline):</head>
                   <item>(a) Direct application </item>
@@ -300,106 +303,753 @@
                   <item>(h) General canvas</item>
                   <item>(i) Promotion within the organization or company</item>
                   <item>(j) Transfer within the organization or company</item>
-                  <item> <add hand="#AJC"><metamark function="checkmark"/> </add>(k) Services sought by new employer <add hand="#AJC">always</add></item>
+                  <item>(k) Services sought by new employer <add hand="#AJC">always</add></item>
                   <item>(l) Other <add hand="#AJC">I have never applied for employment anywhere</add></item>
                </list>
             </div2>
+            <div2 type="question" n="13">
+               <ab> 13. Do you own your home? <add hand="#AJC">Yes</add> Value of home <add
+                     hand="#AJC">18000</add> Other property owned <add hand="#AJC">Cottage in
+                     Raleigh N.C. 2 lots in upper mallboro Md.</add> Value <add hand="#AJC"
+                     >Uncertain, two or three thousand perhaps.</add>
+               </ab>
+            </div2>
+            <div2 type="question" n="14">
+               <ab> 14. <del hand="#AJC" rend="overstrike">Wife</del>
+                  <del hand="#AJC" rend="overwrite">h</del>Husband: Birthplace <add hand="#AJC"
+                     >Nassau British W.I.</add> Present occupation <add hand="#AJC">deceased</add>
+                  Education: (Draw circle around last grade completed) <add hand="#AJC">Educated for
+                     Priest in the Eopiscopal Church.</add>
+                  <lb/>Grammar school---1-2-3-4-5-6-7-8; High school---1-2-3-4;
+                  College---1-2-3-4-5-6-7-8 <lb rend="1-L"/>Of what college or professional school a
+                  graduate <add hand="#AJC">St. Augustine's Divinity School</add> Degree <add
+                     hand="#AJC" rend="2-L">Ordained Deacon &amp; passed examinations for the
+                     priesthood under Bishop Lyman Bp of N.C.</add>
+               </ab>
+            </div2>
+            <div2 type="question" n="15">
+               <table rend="boxed" rows="7" cols="5">
+                  <row role="label">
+                     <cell> Brothers: </cell>
+                     <cell><hi rend="italic">Age</hi></cell>
+                     <cell><hi rend="italic">Education</hi></cell>
+                     <cell><hi rend="italic">School at present attending</hi></cell>
+                     <cell><hi rend="italic">Occupation</hi></cell>
+                  </row>
+                  <row n="1">
+                     <cell><add hand="#AJC"><persName><forename type="first">Rufus</forename>
+                              <surname>Haywood</surname></persName> N.C.</add></cell>
+                     <cell><add hand="#AJC" rend="C-2">Band Leader</add></cell>
+                     <cell><add hand="#AJC">Orchestra &amp; "Standleys Band".</add></cell>
+                     <cell><add hand="#AJC">died 1883</add></cell>
+                  </row>
+                  <row n="2">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="3">
+                     <cell><add hand="#AJC"><persName><forename type="first">Andrew</forename>
+                              <forename type="middle">I</forename>
+                              <surname>Haywood</surname></persName></add></cell>
+                     <cell/>
+                     <cell><add hand="#AJC" rend="C-3">Musician &amp; organizer of <orgName>State
+                              Militia Majori</orgName></add></cell>
+                     <cell><add hand="#AJC">Span <unclear>[??]</unclear>, War, d, 1918</add></cell>
+                  </row>
+                  <row n="4">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="5">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="6">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="7">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+               </table>
+            </div2>
+            <div2 type="question" n="16">
+               <table rend="boxed" rows="7" cols="5">
+                  <row role="label">
+                     <cell>Sisters: <add hand="#AJC"> None</add></cell>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="1">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="2">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="3">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="4">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="5">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="6">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="7">
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                     <cell/>
+                  </row>
+               </table>
+            </div2>
+            <div2 type="question" n="17">
+               <ab>
+                  <lb/>17. Father: Birthplace <add hand="#AJC">I do not know</add> Present
+                  occupation <space/>
+                  <lb/>Education: (Draw circle around last grade completed) <lb/>Grammar
+                  school---1-2-3-4-5-6-7-8; High School---1-2-3-4; College---1-2-3-4-5-6-7-8 <lb/>Of
+                  what college or professional school a graduate <space/> Degree <space/>
+               </ab>
+            </div2>
+            <div2 type="question" n="18">
+               <ab> 18. Mother: Birthplace <add hand="#AJC">Raleigh N.C.</add> Present occupation
+                     <add hand="#AJC"> deceased</add>
+                  <lb/>Education: (Draw circle around last grade completed) <lb/>Grammar
+                  school---1-2-3-4-5-6-7-8; High School---1-2-3-4; College---1-2-3-4-5-6-7-8 <lb/>Of
+                  what college or professional school a graduate <space/> Degree <space/>
+               </ab>
+            </div2>
+            <div2 type="question" n="19">
+               <ab rend="2-L"> 19. What was the attitude of your parents towards your college
+                  education? <add hand="#AJC" rend="3-L">I owe nothing to my white father beyond the
+                     inital act of procreation. My mother's self sacrificing <unclear>toil</unclear>
+                     to give me ad-vantages she had never enjoyed is worthy the highest praise &amp;
+                     undying gratitude.</add>
+               </ab>
+            </div2>
          </div1>
-            <!-- more to add here: the rest of the questions on page 1 -->
-            <pb n="2"/><!--pb means page-beginning, so we can use it to mark the page turns. -->
-            <div1 type="section" n="II">
-               <head>UNDERGRADUATE HISTORY</head>
-               <div2 type="question" n="20">
-                  <!--ebb: I'm trying out an @rend attribute to carry information about the number of lines the survey provides to answer a question. -->
-                  <ab rend="1-L"> 20. Preparatory Training: Name of School <add hand="#AJC"><orgName>St. Augstines Normal &amp; Collegiate Inst. [Now <orgName>St. Aug. College</orgName>.]</orgName>
+         <!-- more to add here: the rest of the questions on page 1 -->
+         <pb n="2"/>
+         <!--pb means page-beginning, so we can use it to mark the page turns. -->
+         <div1 type="section" n="II">
+            <head>UNDERGRADUATE HISTORY</head>
+            <div2 type="question" n="20">
+               <!--ebb: I'm trying out an @rend attribute to carry information about the number of lines the survey provides to answer a question. -->
+               <ab rend="1-L"> 20. Preparatory Training: Name of School <add hand="#AJC"
+                        ><orgName>St. Augstines Normal &amp; Collegiate Inst. [Now <orgName>St. Aug.
+                           College</orgName>.]</orgName>
                      <!--ebb: How about using the orgName element to hold names of schools / institutions? orgName holds the name of an organization. 
                      Because she provides an alternate name for the same school, I'm just nesting a second orgName inside the first. 
                      That's one way we could show with the markup that the two organizations are really the same.-->
-                     </add>
-                  </ab>
-               </div2>
-               <div2 type="question" n="21">
-                  <ab rend="1-L">21. Preparatory Training: <add hand="#AJC"><placeName>Raleigh N. C.</placeName></add> 
-                     Date of graduation <add hand="#AJC">No graduations in my day.</add> 
-                 </ab>
-               </div2>
-               <div2 type="question" n="22">
-                  <ab rend="3-L">22. As you think of it now, do you regard your preparatory training, before college, as adequate or defective? i.e., What deficiencies or omissions in that period do you feel would be of value to you? Please comment briefly
-                     <add hand="#AJC"><lb/>Under <persName>Dr. J. <surname>Brinton Smith</surname></persName>, founder, I was made pupil teacher at the age of 8, first for board &amp; tuition<gap reason="image cut off on right margin"/>
-                        <lb/>Teaching &amp; studying, married &amp; widowed in this <q>world</q> of a church schoolI think the preparation for <gap reason="image cut off on right margin"/><lb/> may pass as <q>good</q> for the time in that I was admitted on examination with some praise to the Sophomore <gap reason="image cut off on right margin"/> Enrance exams, in the Anabasis, the Iliad <abbr>Caes</abbr> <abbr>Cic</abbr><!--ebb: I think these are abbreviations for Caesar and Cicero, which used to be taught a lot in a classics (ancient Greek/Roman literature) curriculum in the late 19th-century.-->, Plane &amp; Solid Geometry<gap reason="image cut off on right margin"/><lb/>Conditioned in Trig. Mechanics, Physics, Hist. of Civilization <metamark rend="short-connecting-line"/><add place="below">&amp; Science of Government</add>, the Odyssey made up <unclear><supplied>in</supplied></unclear> one yea<supplied reason="image cut off on right margin">r</supplied>
-                     </add>
-                     
-                  </ab>
-               </div2>
-               
-<!--more survey questions / answers -->
-               
-               
-         
-            
-            <pb n="3"/>
-         <div2 type="question" n="36">
-            <ab rend="1-L">36. How well did you do in college? <add hand="#AJC">Hardly a fair question for personal answer. I did my best &amp; <metamark rend="short-connecting-line"/><lb/><note resp="#ebb">Here AJC’s text flows upside-down along the top of the form</note> 4 Professors including <persName>Prest. Fairchild</persName> gave me letters rating me first in the class.</add>
-            </ab>
-         </div2>
-            <pb n="4"/>
-            <pb n="5"/>
-            
-            
-            
-            <div2 type="question" n="65">
-               <ab rend="4-L">65. Have you a <q>racial philosophy</q> that can be briefly stated?
-               <add hand="AJC">My <q>racial philosophy</q> is not far removed 
-                  <lb/>from my general philosophy of life: that the greatest happiness comes from
-                  altruistic service—&amp; this <lb/>is in reach of all of whatever race &amp; condition. The <q>Service</q> here meant
-                  it is not a pious idea of <hi rend="underline">being used;</hi> 
-                  <lb/>any sort of exploitation whether active or passive
-                  is to my mind hateful. Nor is the <q>Happiness</q> a mere bit.<note resp="#ebb">This continues on the last page.</note></add>
+                  </add>
                </ab>
             </div2>
-            
-               <pb n="6"/>
-              <div2 type="page-heading"><head>SPACE RESERVED FOR SPECIAL COMMENT</head></div2>
-            
-               <div2 type="margin"> <ab hand="AJC"> <gap/>ily Service <gap/>d Girls Work <gap/>g World War. </ab> </div2><!--ebb: There are a few words in the left margin that are not clearly visible and don't seem to be connected to the flow of these paragraphs in AJC's response. We can sort of collect these up here, because they're not really in sequence with the text below.-->
-               
+            <div2 type="question" n="21">
+               <ab rend="1-L">21. Preparatory Training: <add hand="#AJC"><placeName>Raleigh N.
+                        C.</placeName></add> Date of graduation <add hand="#AJC">No graduations in
+                     my day.</add>
+               </ab>
+            </div2>
+            <div2 type="question" n="22">
+               <ab rend="3-L">22. As you think of it now, do you regard your preparatory training,
+                  before college, as adequate or defective? i.e., What deficiencies or omissions in
+                  that period do you feel would be of value to you? Please comment briefly <add
+                     hand="#AJC"><lb/>Under <persName>Dr. J. <surname>Brinton
+                        Smith</surname></persName>, founder, I was made pupil teacher at the age of
+                     8, first for board &amp; tuition<gap reason="image cut off on right margin"/>
+                     <lb/>Teaching &amp; studying, married &amp; widowed in this <q>world</q> of a
+                     church schoolI think the preparation for <gap
+                        reason="image cut off on right margin"/><lb/> may pass as <q>good</q> for
+                     the time in that I was admitted on examination with some praise to the
+                     Sophomore <gap reason="image cut off on right margin"/> Enrance exams, in the
+                     Anabasis, the Iliad <abbr>Caes</abbr>
+                     <abbr>Cic</abbr><!--ebb: I think these are abbreviations for Caesar and Cicero, which used to be taught a lot in a classics (ancient Greek/Roman literature) curriculum in the late 19th-century.-->,
+                     Plane &amp; Solid Geometry<gap reason="image cut off on right margin"
+                     /><lb/>Conditioned in Trig. Mechanics, Physics, Hist. of Civilization <metamark
+                        rend="short-connecting-line"/><add place="below">&amp; Science of
+                        Government</add>, the Odyssey made up
+                        <unclear><supplied>in</supplied></unclear> one yea<supplied
+                        reason="image cut off on right margin">r</supplied>
+                  </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="23">
+               <ab>23. College and Professional Training:</ab>
+               <table rend="boxed" rows="6" cols="3">
+                  <row role="label">
+                     <cell><hi rend="italic">Institution</hi></cell>
+                     <cell><hi rend="italic">Period (give dates)</hi></cell>
+                     <cell><hi rend="italic">Diploma or degree</hi></cell>
+                  </row>
+                  <row n="1">
+                     <cell>1 <add hand="#AJC">
+                           <orgName>St. Aug. Normal &amp; Collegiate</orgName></add></cell>
+                     <cell><add hand="#AJC">from early youth to 1881</add></cell>
+                     <cell><add hand="#AJC">None</add></cell>
+                  </row>
+                  <row n="2">
+                     <cell>2 <add hand="#AJC">
+                           <orgName>Oberlin</orgName></add></cell>
+                     <cell><add hand="#AJC">Sept. '81 -- June '84</add></cell>
+                     <cell><add hand="#AJC">A.B.</add></cell>
+                  </row>
+                  <row n="3">
+                     <cell>3 <add hand="#AJC">
+                           <orgName>Oberlin</orgName> on 3 yrs. College Teaching</add></cell>
+                     <cell><add hand="#AJC">'84 --- '87</add></cell>
+                     <cell><add hand="#AJC">M.A</add></cell>
+                  </row>
+                  <row n="4">
+                     <cell>4 <add hand="#AJC"><orgName>Columbia</orgName> on 4 yrs graduate courses
+                           in S.S.</add></cell>
+                     <cell><add hand="#AJC">1914, 15, 16, 17</add></cell>
+                     <cell><add hand="#AJC" rend="2-L"
+                              ><unclear><supplied>Guilde</supplied></unclear>Internationale Paris
+                           S.S</add></cell>
+
+                  </row>
+                  <row rend="none">
+                     <!-- added by AJC, not originally part of surey -->
+                     <cell><add hand="#AJC">5 <orgName>Universite de Paris</orgName>, La
+                           Sorbonne</add></cell>
+                     <cell><add hand="#AJC">1924 - '25. Residence &amp; thesis</add></cell>
+                     <cell><add hand="#AJC"><metamark function="verticalLine"/> PHD.</add></cell>
+                  </row>
+               </table>
+            </div2>
+            <div2 type="question" n="24">
+               <ab>24. How was your education supported? <add hand="#AJC">Personal
+                  earnings</add></ab>
+            </div2>
+            <div2 type="question" n="25">
+               <ab> 25. What part of your support was earned through self-help? <add hand="#AJC"
+                     >All</add>
+               </ab>
+            </div2>
+            <div2 type="question" n="26">
+               <ab rend="2-L"> 26. As you regarded it then, what motives prompted you to go to
+                  college? <add hand="#AJC" rend="1-L"
+                        ><unclear><supplied>indomitable</supplied></unclear>innate "working to
+                     know"</add>
+               </ab>
+            </div2>
+            <div2 type="question" n="27">
+               <ab> 27. What was your major subject or special training in college? <add hand="#AJC"
+                     >Mathematics <metamark function="verticaLine"/> I took all in the course.</add>
+               </ab>
+            </div2>
+            <div2 type="question" n="28">
+               <ab> 28. What subjects were most liked (in order of preference)? <add hand="#AJC"
+                     >Philosophy <unclear><supplied>Msral</supplied></unclear> &amp; Mental, Logic,
+                     Trig &amp; <gap reason="image cut off on right margin"/></add>
+               </ab>
+            </div2>
+            <div2 type="question" n="29">
+               <ab> 29. What subjects were most disliked (in order)? <add hand="#AJC">I do not
+                     recall any that I did not thoroly enjoy.</add>
+               </ab>
+            </div2>
+            <div2 type="question" n="30">
+               <ab> 30. What subject or subjects proved most useful to you after graduation? <add
+                     hand="#AJC">I have had to use them all I think at son<gap
+                        reason="image cut off on right margin"/></add>
+               </ab>
+            </div2>
+            <div2 type="question" n="31">
+               <ab rend="2-L"> 31. What faculty members proed most stimulating to you? (Give names
+                  and position of faculty)<add hand="#AJC" rend="2-L">President Fairchild, Prof.
+                     Churchill, Tutor (Now Ex-Pres.) King of Berlin,
+                           Paul-<unclear><supplied>Prival</supplied></unclear> Deschauel, C Cestre
+                     Saquac</add>
+               </ab>
+            </div2>
+            <div2 type="question" n="32">
+               <ab rend="2-L"> 32. What school influences were most important in giving direction to
+                  your life? <add hand="#AJC" rend="2-L">"Thursday Lectures", Mrs. Johnsto<gap
+                        reason="image cut off on right margin"/>
+                     <unclear><supplied>Jen "Lu K"</supplied></unclear> for Women, &amp; weekly
+                     young people's meetings, with of course the <orgName>Oberlin</orgName> "a<gap
+                        reason="image cut off on right margin"/> the music, the sermons
+                     Brothers</add>
+               </ab>
+            </div2>
+            <div2 type="question" n="33">
+               <ab> 33. To what honor societies did you belong in college? <add hand="#AJC"
+                        ><orgName>Oberlin</orgName> had none in my day.</add>
+               </ab>
+            </div2>
+            <div2 type="question" n="34">
+               <ab> 34. <lb/>To what fraternity or sorority? <add hand="#AJC">L.L.S.</add>
+                  <lb/>Please check extra-curricular activities engaged in <add hand="#AJC"
+                     rend="2-L">I taught advanced Algebra in <orgName>Oberlin academy</orgName>
+                     <lb/>The Students were white.</add>
+               </ab>
+               <table rend="boxed" rows="11" cols="3">
+                  <row role="label">
+                     <cell/>
+                     <cell>Regularly</cell>
+                     <cell>Occasionally</cell>
+                  </row>
+                  <row n="1">
+                     <cell>35. A. On campus</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="2">
+                     <cell>Athletics</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="3">
+                     <cell>Oratory and debating</cell>
+                     <cell/>
+                     <cell><metamark function="checkmark"/></cell>
+                  </row>
+                  <row n="4">
+                     <cell>Fraternity or sorority</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="5">
+                     <cell>Literary society</cell>
+                     <cell><metamark function="checkmark"/></cell>
+                     <cell/>
+                  </row>
+                  <row n="6">
+                     <cell>Dramatics</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="7">
+                     <cell>Music</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="8">
+                     <cell>Religion</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="9">
+                     <cell>Publications</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="10">
+                     <cell>Student government</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+               </table>
+               <table rend="boxed" rows="11" cols="3">
+                  <row role="label">
+                     <cell/>
+                     <cell>Regularly</cell>
+                     <cell>Occasionally</cell>
+                  </row>
+                  <row n="1">
+                     <cell>35. On campus</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="2">
+                     <cell>Social club</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="3">
+                     <cell>Other forms</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="4">
+                     <cell>B. Off campus</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="5">
+                     <cell>Church work</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="6">
+                     <cell>Social club</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="7">
+                     <cell>Civic or social service</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="8">
+                     <cell>Other forms</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+               </table>
+            </div2>
+            <!--more survey questions / answers -->
+
+            <pb n="3"/>
+            <div2 type="question" n="36">
+               <ab rend="1-L">36. How well did you do in college? <add hand="#AJC">Hardly a fair
+                     question for personal answer. I did my best &amp; <metamark
+                        rend="short-connecting-line"/><lb/><note resp="#ebb">Here AJC’s text flows
+                        upside-down along the top of the form</note> 4 Professors including
+                        <persName>Prest. Fairchild</persName> gave me letters rating me first in the
+                     class.</add>
+               </ab>
+            </div2>
+            <div2 type="question" n="37">
+               <ab rend="1-L"> 37. To what extent were you influenced by religious training,
+                  personalities or the religious atmosphere of your school? <add hand="#AJC">
+                     <lb/>I entered <orgName>Oberlin</orgName> a bigoted "Churchman". I left not the slightest attempt
+                     at <unclear><supplied>proselyting</supplied></unclear>. Kyo<gap reason="image cut off on right margin"/>
+                     <lb/>altho I continued to attend the little Episeopal Church relgiously the
+                     breadth &amp; real cathoicity of the <lb/><orgName>Oberlin</orgName> spririt the friendly contacts
+                     &amp; <unclear><supplied>aider</supplied></unclear> study had the inevitable
+                     result which I consider humaniging of <unclear><supplied>sues</supplied></unclear>
+                     <lb/><gap reason="image cut off on right margin"/>wrehiauity." </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="38">
+               <ab rend="3-L"> 38. What is your attitude toward educational methods of instruction
+                  in college? (Mention the strongest and weakest features? <add hand="#AJC">
+                     <lb/> Too broad to be answered in 2 lines. If the post was machine method of
+                     "tests &amp; measurements" to <lb/>Sting out the unfit prevails we never can
+                     tell what is to be done for the untalented plodder who <lb/>continues to want
+                     more. You may have your Loebs &amp; Leopolds &amp; reject Lindbergs. </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="39">
+               <ab> 39. At what period during your undergaduate life did you decide upon your
+                  career? <add hand="#AJC"> At not far from the kindergarten age </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="40">
+               <ab> 40. Length of time between graduation and employment in field of choice <add
+                     hand="#AJC"> Not a moment. </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="41">
+               <ab rend="1-L"> 41. Length of time between graduation and employment in field of
+                  choice <add hand="#AJC">
+                     <lb/>ditto. I was engaged to return to <orgName>St. Aug.</orgName> the <lb/> let yr. There was a
+                     hitch &amp; I went to <orgName>Wilberforce</orgName> instead. </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="42">
+               <ab> 42. Did you return to your home town to work after graduation? <add hand="#AJC">
+                     2d year </add> Temporarily? <add hand="#AJC"> Two yrs. </add> Permanently?
+                  <space/>
+               </ab>
+            </div2>
+            <div2 type="question" n="43">
+               <ab rend="3-L"> 43. Reasons for returning or not returning to home town to work after
+                  graduation? <add hand="#AJC">
+                     <lb/><persName>Dr Swedes</persName>, the Prin. underwhom I had taught <lb/>before leaving for
+                     College &amp; who had engaged my services to return was at that juncture
+                     suferseded by <persName>Dr Suttou</persName> who <lb/>wanted to change the contract from "Professor"
+                     to "teacher in charge of Girls." I refued. </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="44"> 
+               <ab rend="2-L">
+                  44. If you could control the situation, what would you like to be doing ten years from now? 
+                  <add hand="#AJC">
+                     <lb/>What I am doing now
+                  </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="45">
+               <ab rend="3-L">
+                  45. Have you been prevented from entering the vocation of your choice by racial factors?
+                  <add hand="#AJC">No</add>
+                  Can you state <del type="strikethrough" hand="#AJC">any of them?</del>
+                  <add hand="#AJC">
+                     <lb/>Teaching has always seemed to me the noblest of callings, &amp; I believe that if I were
+                     <lb/>white I should still want to teach those whose need presents a stronger appeal than money. There may
+                     <lb/>be a bit of vanity in this. It is human to be stimulated by appreciation where it is genuine.
+                  </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="46">
+               <ab rend="3-L">
+                  46. What <del type="strikethrough" hand="#AJC"/> racial factors have interfered? 
+                  <add hand="#AJC">
+                     <lb/>During my principalship of <orgName>MSt. H.S.</orgName> the colored prisc. was under the white
+                     <lb/>Director of High Schools. At a meeting of principals she was told where the question of scholarships in colleges came up, that
+                     <lb/>her graduates were not eligible to try for them. The Director at the same time recommended to Congress that a <gap reason="image cut off on right margin"/>
+                  </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="47">
+               <ab rend="3-L">
+                  47. Will you give a brief estimate of the value of your college training? 
+                  <add hand="#AJC">
+                     <lb/>My estimate can be mathematically stated
+                     <lb/>in dollars &amp; cents. When I announced to the Princ. of <orgName>St. Aug.</orgName> my intention to go to college I was receiving 
+                     <lb/>$30.00 per mo. As are inducement for me <hi rend="underline">not</hi> to go he offered to double that figure at once. Im not sorry that
+                     <lb/>I refused such <unclear><supplied>reuscificence</supplied></unclear>
+                  </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="48">
+               <ab rend="3-L">
+                  48. How would it be changed if you could do it over again?
+                  <add hand="#AJC">
+                     <lb/><space/>
+                     <lb/>Who does the best his circumstance allows need have no qualms in judging results,
+                     <lb/>The world changes &amp; if I had my story to start now I should surely have to meet other
+                     <lb/>problems &amp; conditions from those of 50 yrs. ago, but I doubt not I should adjust myself to them
+                     <lb/>with the same pluck &amp; energy that I believe to be an unchanging part of me. I should miss
+                     <lb/>perhaps a friendly interest &amp; even a surprised applause on the part of whites
+                     <lb/>who are now concluding that N. are best educated in N. schools. But that is not essential. 
+                  </add>
+               </ab>
+            </div2>
+         </div1>
+         <div1 type="section" n="III">
+            <head>AFTER GRADUATION CAREER</head>
+            <div2 type="question" n="49">
+               <ab>
+                  49. Are you at present employed upon the occupation of your choice? <add hand="#AJC"> yes.</add> the vocation for which you were prepared? 
+                  <add hand="#AJC">
+                     The Education of neglected people.
+                  </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="50">
+               <ab rend="3-L">
+                  50. Membership in learned societies (give name of your organization) 
+                  <add hand="#AJC">
+                     <lb/>"Learned Societies" do not seek colored
+                     <lb/>workers. Wanting some help in researches I contemplated for a history of the negroes of <placeName>Washington</placeName>
+                     <lb/>I applied to the <orgName>Brookings Inst. for Research</orgName> also to the Amercan graduate School here of wh.<unclear><supplied> Dr. Ed wd Devine</supplied></unclear> was 
+                     <lb/>then Dean. Both schools <unclear><supplied>nhised</supplied></unclear> the color bar &amp; <persName>Dr. Devine</persName> soon afterwards resigned.
+                  </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="51">
+               <ab rend="3-L">
+                  51. What do you regard as your outstanding accomplishments since graduation?
+                  <add hand="#AJC">
+                     <lb/><space/>
+                     <lb/>Perhaps others will think first of the Defense in French before a fury of French Doctors at the Sorbonne of my
+                     <lb/>thesis on the attitude of France on Slavery Mek 23 1920 &amp; My own preference is the building of a beautiful home at the capital
+                     <lb/>from unsubsidized earnings to be dedicated in the name of my slave mother to the education of colored <unclear><supplied>arseking</supplied></unclear> people.
+                  </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="52">
+               <ab rend="3-L">
+                  52. What positions of honor and distinction do you now hold? (List)
+                  <add hand="#AJC">
+                     <lb/><space/>
+                     <lb/>I am called President of <orgName>Frelinghuysen University</orgName> started by the late <persName>Jesse Lawson</persName> 25 yrs. ago, which
+                     <lb/>has now for the first time a permanent home at <placeName>201 T N.W.</placeName> "a group of schools for Adult Education com-
+                     <lb/>prising a Law School, School of Religion &amp; Opportunity classes for pre-academic workers. A "Foundation" is sought for
+                     <lb/><orgName>the Jesse Lawson School of <hi rend="underline" hand="#AJC">Social Service</hi></orgName>, an oustanding need at the Nations Capital training colored workers.
+                  </add>
+               </ab>
+            </div2>
+            <pb n="4"/>
+            <pb n="5"/>
+
+
+
+<div2 type="question" n="53"
+   <ab rend="3-L">
+      53. Have you held or do you now hold any public office? (Name)
+      <add hand="#AJC">
+         <lb>Principal <orgName>M. St High School</orgName> Washington D.C. 1901 to 1906.</lb>
+      </add>
+   </ab>
+</div2>
+
+<div2 type="question" n="54">
+   <ab rend="3-L">
+      54. Books published
+      <add hand="#AJC">
+         <lb>A voice from the South,</lb>
+         <lb>L'Attitude de la France à l'Eqard de l'Esclavage. These </lb>
+         <lb>10. Poem de Peterinaqe de Charlemagne avee slossaire edited </lb>
+      </add>
+   </ab>
+</div2>
+            <div2 type="question" n="55">
+               <ab rend="3-L">
+                  55. Types of important articles published
+                  <add hand="#AJC">
+                     <lb>"Educational Programs"</space>Simon of Cpene - "The Southland" "the first Negro Mag<damaged/></lb>
+                     <lb>The Ethics of the Negro Question-, The Social Social Settlement what it is + what it does etc.</lb>
+                     <lb>Summer Editor Southern Work</lb>
+                     <lb>Ha<unclear/></lb>
+                  </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="56">
+               <ab rend="3-L">
+               56. Honorary Degrees
+               <add hand="#AJC">
+                  None
+               </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="57">
+               <ab rend="3-L">
+               57. To what church denomination do you belong?
+               <add hand="#AJC">
+                  
+                  <orgName>Episcopal (St. Lukee's P.E.)</orgName>
+               </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="58">
+               <ab rend="3-L">
+               58. What are your present cultural interests?
+               <add hand="#AJC">
+                  Education of the underprivileged.
+               </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="59">
+               <ab rend="3-L">
+                  59. What further study have you engaged in since graduation?
+                  <add hand="#AJC">
+                  <lb>4 Graduate courses at <orgName>La Guilde Internationale</orgName></lb>
+                  <lb>8 Full Courses <orgName>S.S. Columbia</orgName>: Dept. Romance Lang., French 101, 102, 103, 104, 105, 106,</lb>
+               </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="60">
+               <ab rend="3-L">
+                  60. List civic and social movements in which you are engaged
+                  <add hand="#AJC">
+                     <lb><orgName>Speakers Bureau Community Chest</orgName></lb>
+                     <lb><orgName>Phyllis Wheatley</orgName> <orgName>Y.W.C.A.</orgName>, <orgName>N.A.A.C.P.</orgName> <orgName>Vi Omega Chap Alpha Kappa Alpha sc</orgName></lb>
+                  </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="65">
+               <ab rend="4-L">65. Have you a <q>racial philosophy</q> that can be briefly stated?
+                     <add hand="AJC">My <q>racial philosophy</q> is not far removed <lb/>from my
+                     general philosophy of life: that the greatest happiness comes from altruistic
+                     service—&amp; this <lb/>is in reach of all of whatever race &amp; condition.
+                     The <q>Service</q> here meant it is not a pious idea of <hi rend="underline"
+                        >being used;</hi>
+                     <lb/>any sort of exploitation whether active or passive is to my mind hateful.
+                     Nor is the <q>Happiness</q> a mere bit.<note resp="#ebb">This continues on the
+                        last page.</note></add>
+               </ab>
+            </div2>
+
+            <pb n="6"/>
+            <div2 type="page-heading">
+               <head>SPACE RESERVED FOR SPECIAL COMMENT</head>
+            </div2>
+
+            <div2 type="margin">
+               <ab hand="AJC">
+                  <gap/>ily Service <gap/>d Girls Work <gap/>g World War. </ab>
+            </div2>
+            <!--ebb: There are a few words in the left margin that are not clearly visible and don't seem to be connected to the flow of these paragraphs in AJC's response. We can sort of collect these up here, because they're not really in sequence with the text below.-->
+
             <metamark function="flag" rend="pointer" target="(65 cont.)"/>
-            <div2 type="continuation" n="65"><ab hand="#AJC">65 cont.) of Pollyanna stuff. I am as sensitive to handicaps as those who are 
-               <lb/>always whining about them &amp; the whips &amp; slings of prejudice, 
-               <lb/>whether of color or sex, find me neither too calloused to suffer nor too ignorant
-               <lb/>to know what is due me. Our own men as a group have not inherited traditions 
-               <lb/>of chiv-alry (one sided as it may be among white men) &amp; we women are generally 
-               <lb/>left to do our race battling alone except for empty compliments now &amp; then.
-               <lb/>Even so, one may make the mistake of looking at race handicaps thro the wrong end 
-               <lb/>of the telescope—imagining that oppression
-               <lb/>goes only with color. When I encounter 
-               <lb/>brutality I need not always charge it to my race. It may be—&amp; generally is— 
-               chargeable to the 
-               <lb/>imperfections in the civilization envisioning me for which as a teacher &amp; trained 
-               <lb/>thinker. I take my share of responsibility.</ab>
-               <lb/><p hand="#AJC">The extent, then, of the optimism in my philosophy is that, (Statisticians &amp; Social Science Research 
-                  <lb/>compilers to the contrary notwithstanding) the solution of our problem will be the individual &amp;
-                  <lb/>not en masse, &amp; the habit of generalization &amp; deductive logic has done its worst.</p>
-               <lb/> <p>For after all, Social Justice the desired goal is not to be reached thro any panacea 
-                  <lb/>by mass production. whether <persName>DuBois</persName>'s preachment of the ballot for &amp; <unclear reason="illegible">intermarriage</unclear>
-                  <lb/>or <persName>Kelly Miller</persName>'s one time suggestion of self effacement, or even <persName>Booker Washington</persName>'s
-                  <lb/>proposal of the solid hand &amp; separate fingers. For human selfishness will always
-                  <lb/>arise as domineering <hi rend="underline">thumb</hi> to over ride &amp; keep down every finger weak enough
-                  <lb/>to give up the struggle. The ballot operates just so far as dominant forces agree to respect it. Which
-                  <lb/>again is reasoning in a circle to insane justice by having man become just. &amp; the spectacle of
-                  <lb/><gap/>angsler dominance among ballot holding Americans invites little hope for solution
-                  <lb/>when the element of race is added to the problem. As I see it then, the patient persistence of 
-                  <lb/>the individual, working as <persName>Browning</persName> has it, <quote>"mouth wise &amp; pen wise"</quote> in whatever station &amp;
-                  <lb/>with whatever talent God has given, in truth &amp; loyalty to serve the whole, will come as
-                  <lb/>near as any other to proving worth while.</p>
-               <lb/><p hand="#AJC">To me Life has meant a big opportunity &amp; I am thankful that my work has
-                  <lb/>always been the soul that beckoned me on, leaving no room for blase philosophizing &amp; 
-                  <lb/>rebellious resentment &amp; with just enough opposition to give zest to the struggle, just enough hope of scoring 
-                  <gap reason="image cut off on left marging"/><supplied resp="#ebb">so</supplied>mewhere among the winners to keep my head "unbowed tho bloody."</p></div2>
-           
-         
-         
-            </div1>
+            <div2 type="continuation" n="65">
+               <ab hand="#AJC">65 cont.) of Pollyanna stuff. I am as sensitive to handicaps as those
+                  who are <lb/>always whining about them &amp; the whips &amp; slings of prejudice,
+                  <lb/>whether of color or sex, find me neither too calloused to suffer nor too
+                  ignorant <lb/>to know what is due me. Our own men as a group have not inherited
+                  traditions <lb/>of chiv-alry (one sided as it may be among white men) &amp; we
+                  women are generally <lb/>left to do our race battling alone except for empty
+                  compliments now &amp; then. <lb/>Even so, one may make the mistake of looking at
+                  race handicaps thro the wrong end <lb/>of the telescope—imagining that oppression
+                  <lb/>goes only with color. When I encounter <lb/>brutality I need not always
+                  charge it to my race. It may be—&amp; generally is— chargeable to the
+                  <lb/>imperfections in the civilization envisioning me for which as a teacher &amp;
+                  trained <lb/>thinker. I take my share of responsibility.</ab>
+               <lb/>
+               <p hand="#AJC">The extent, then, of the optimism in my philosophy is that,
+                  (Statisticians &amp; Social Science Research <lb/>compilers to the contrary
+                  notwithstanding) the solution of our problem will be the individual &amp; <lb/>not
+                  en masse, &amp; the habit of generalization &amp; deductive logic has done its
+                  worst.</p>
+               <lb/>
+               <p>For after all, Social Justice the desired goal is not to be reached thro any
+                  panacea <lb/>by mass production. whether <persName>DuBois</persName>'s preachment
+                  of the ballot for &amp; <unclear reason="illegible">intermarriage</unclear>
+                  <lb/>or <persName>Kelly Miller</persName>'s one time suggestion of self
+                  effacement, or even <persName>Booker Washington</persName>'s <lb/>proposal of the
+                  solid hand &amp; separate fingers. For human selfishness will always <lb/>arise as
+                  domineering <hi rend="underline">thumb</hi> to over ride &amp; keep down every
+                  finger weak enough <lb/>to give up the struggle. The ballot operates just so far
+                  as dominant forces agree to respect it. Which <lb/>again is reasoning in a circle
+                  to insane justice by having man become just. &amp; the spectacle of
+                  <lb/><gap/>angsler dominance among ballot holding Americans invites little hope
+                  for solution <lb/>when the element of race is added to the problem. As I see it
+                  then, the patient persistence of <lb/>the individual, working as
+                     <persName>Browning</persName> has it, <quote>"mouth wise &amp; pen
+                     wise"</quote> in whatever station &amp; <lb/>with whatever talent God has
+                  given, in truth &amp; loyalty to serve the whole, will come as <lb/>near as any
+                  other to proving worth while.</p>
+               <lb/>
+               <p hand="#AJC">To me Life has meant a big opportunity &amp; I am thankful that my
+                  work has <lb/>always been the soul that beckoned me on, leaving no room for blase
+                  philosophizing &amp; <lb/>rebellious resentment &amp; with just enough opposition
+                  to give zest to the struggle, just enough hope of scoring <gap
+                     reason="image cut off on left marging"/><supplied resp="#ebb"
+                  >so</supplied>mewhere among the winners to keep my head "unbowed tho bloody."</p>
+            </div2>
+         </div1>
 
       </body>
    </text>
