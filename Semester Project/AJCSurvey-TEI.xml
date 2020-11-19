@@ -86,7 +86,7 @@
                </ab>
             </div2>
             <div2 type="question" n="6">
-               <ab> Marital status: Single <add hand="#AJC">Widowed</add> Married <add hand="#AJC"
+               <ab>6. Marital status: Single <add hand="#AJC">Widowed</add> Married <add hand="#AJC"
                         ><metamark function="checkmark"/></add> Date of marriage <add hand="#AJC"
                      >June 21, 1877</add> Age at marriage <add hand="#AJC">17</add>
                   Divorced<space/>Date<space/>Separated<space/>Date<space/>Widowed <add hand="#AJC"
@@ -315,7 +315,7 @@
                </ab>
             </div2>
             <div2 type="question" n="14">
-               <ab> 14. <del hand="#AJC" rend="overstrike">Wife</del>
+               <ab> 14. <del hand="#AJC" rend="strikethrough">Wife</del>
                   <del hand="#AJC" rend="overwrite">h</del>Husband: Birthplace <add hand="#AJC"
                      >Nassau British W.I.</add> Present occupation <add hand="#AJC">deceased</add>
                   Education: (Draw circle around last grade completed) <add hand="#AJC">Educated for
@@ -479,7 +479,7 @@
          <pb n="2"/>
          <!--pb means page-beginning, so we can use it to mark the page turns. -->
          <div1 type="section" n="II">
-            <head>UNDERGRADUATE HISTORY</head>
+            <head>II. UNDERGRADUATE HISTORY</head>
             <div2 type="question" n="20">
                <!--ebb: I'm trying out an @rend attribute to carry information about the number of lines the survey provides to answer a question. -->
                <ab rend="1-L"> 20. Preparatory Training: Name of School <add hand="#AJC"
@@ -631,63 +631,7 @@
                      rend="2-L">I taught advanced Algebra in <orgName>Oberlin academy</orgName>
                      <lb/>The Students were white.</add>
                </ab>
-               <table rend="boxed" rows="11" cols="3">
-                  <row role="label">
-                     <cell/>
-                     <cell>Regularly</cell>
-                     <cell>Occasionally</cell>
-                  </row>
-                  <row n="1">
-                     <cell>35. A. On campus</cell>
-                     <cell/>
-                     <cell/>
-                  </row>
-                  <row n="2">
-                     <cell>Athletics</cell>
-                     <cell/>
-                     <cell/>
-                  </row>
-                  <row n="3">
-                     <cell>Oratory and debating</cell>
-                     <cell/>
-                     <cell><metamark function="checkmark"/></cell>
-                  </row>
-                  <row n="4">
-                     <cell>Fraternity or sorority</cell>
-                     <cell/>
-                     <cell/>
-                  </row>
-                  <row n="5">
-                     <cell>Literary society</cell>
-                     <cell><metamark function="checkmark"/></cell>
-                     <cell/>
-                  </row>
-                  <row n="6">
-                     <cell>Dramatics</cell>
-                     <cell/>
-                     <cell/>
-                  </row>
-                  <row n="7">
-                     <cell>Music</cell>
-                     <cell/>
-                     <cell/>
-                  </row>
-                  <row n="8">
-                     <cell>Religion</cell>
-                     <cell/>
-                     <cell/>
-                  </row>
-                  <row n="9">
-                     <cell>Publications</cell>
-                     <cell/>
-                     <cell/>
-                  </row>
-                  <row n="10">
-                     <cell>Student government</cell>
-                     <cell/>
-                     <cell/>
-                  </row>
-               </table>
+              
                <table rend="boxed" rows="11" cols="3">
                   <row role="label">
                      <cell/>
@@ -858,7 +802,7 @@
             </div2>
          </div1>
          <div1 type="section" n="III">
-            <head>AFTER GRADUATION CAREER</head>
+            <head>III. AFTER GRADUATION CAREER</head>
             <div2 type="question" n="49">
                <ab>
                   49. Are you at present employed upon the occupation of your choice? <add hand="#AJC"> yes.</add> the vocation for which you were prepared? 
