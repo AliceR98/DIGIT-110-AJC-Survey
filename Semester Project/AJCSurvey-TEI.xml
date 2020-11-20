@@ -330,7 +330,7 @@
             <div2 type="question" n="15">
                <table rend="boxed" rows="7" cols="5">
                   <row role="label">
-                     <cell> Brothers: </cell>
+                     <cell>15. Brothers: </cell>
                      <cell><hi rend="italic">Age</hi></cell>
                      <cell><hi rend="italic">Education</hi></cell>
                      <cell><hi rend="italic">School at present attending</hi></cell>
@@ -339,6 +339,7 @@
                   <row n="1">
                      <cell><add hand="#AJC"><persName><forename type="first">Rufus</forename>
                               <surname>Haywood</surname></persName> N.C.</add></cell>
+                     <cell/>
                      <cell><add hand="#AJC" rend="C-2">Band Leader</add></cell>
                      <cell><add hand="#AJC">Orchestra &amp; "Standleys Band".</add></cell>
                      <cell><add hand="#AJC">died 1883</add></cell>
@@ -355,8 +356,11 @@
                               <forename type="middle">I</forename>
                               <surname>Haywood</surname></persName></add></cell>
                      <cell/>
-                     <cell><add hand="#AJC" rend="C-3">Musician &amp; organizer of <orgName>State
-                              Militia Majori</orgName></add></cell>
+                     <cell><add hand="#AJC" rend="C-3">Musician &amp; organizer of </add>
+                     </cell>
+                     <cell><add hand="#AJC"><orgName>State
+                              Militia Majori</orgName></add>
+                     </cell>
                      <cell><add hand="#AJC">Span <unclear>[??]</unclear>, War, d, 1918</add></cell>
                   </row>
                   <row n="4">
@@ -392,7 +396,7 @@
             <div2 type="question" n="16">
                <table rend="boxed" rows="7" cols="5">
                   <row role="label">
-                     <cell>Sisters: <add hand="#AJC"> None</add></cell>
+                     <cell>16. Sisters: <add hand="#AJC"> None</add></cell>
                      <cell/>
                      <cell/>
                      <cell/>
@@ -631,7 +635,8 @@
                      rend="2-L">I taught advanced Algebra in <orgName>Oberlin academy</orgName>
                      <lb/>The Students were white.</add>
                </ab>
-              
+            </div2>
+            <div2 type="question" n="35">
                <table rend="boxed" rows="11" cols="3">
                   <row role="label">
                      <cell/>

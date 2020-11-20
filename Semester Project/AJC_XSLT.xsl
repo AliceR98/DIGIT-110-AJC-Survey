@@ -31,20 +31,22 @@
     </xsl:template>
     
     <xsl:template match="div2">
-        <xsl:choose>
-            <xsl:when test="ab">
-                <p><xsl:apply-templates/></p>
-            </xsl:when>
-            <xsl:when test="table">
-                <xsl:apply-templates select="table"/>
-            </xsl:when>
-            <xsl:when test="list">
-                <xsl:apply-templates select="list"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <xsl:apply-templates/>
-            </xsl:otherwise>
-        </xsl:choose>
+        <div id="Q{count(preceding::div2) + 1}">
+            <xsl:choose>
+                <xsl:when test="ab">
+                    <xsl:apply-templates/>
+                </xsl:when>
+                <xsl:when test="table">
+                    <xsl:apply-templates select="table"/>
+                </xsl:when>
+                <xsl:when test="list">
+                    <xsl:apply-templates select="list"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:apply-templates/>
+                </xsl:otherwise>
+            </xsl:choose>   
+        </div>     
         <br/>
     </xsl:template>
     <xsl:template match="table">
@@ -94,6 +96,10 @@
     
     <xsl:template match="del[@rend='strikethrough']"
         ><del><xsl:apply-templates/></del>  
+    </xsl:template>
+    
+    <xsl:template match="unclear">
+        <span class="unclear"><xsl:apply-templates/></span>
     </xsl:template>
 
 </xsl:stylesheet>
