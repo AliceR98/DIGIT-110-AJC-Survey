@@ -101,5 +101,39 @@
     <xsl:template match="unclear">
         <span class="unclear"><xsl:apply-templates/></span>
     </xsl:template>
-
+    
+    <xsl:template match="gap">
+        <span class="gap">
+            <xsl:value-of select="@reason"/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="persName">
+        <span class="persName">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="placeName">
+        <span class="placeName">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="orgName">
+        <span class="orgName">
+            <xsl:apply-templates/>
+        </span>
+    </xsl:template>
+    
+    <xsl:template match="hi">
+        <xsl:choose>
+            <xsl:when test="@rend='italic'">
+                <i><xsl:apply-templates/></i>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
 </xsl:stylesheet>
