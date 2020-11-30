@@ -906,11 +906,11 @@
 
 
 
-<div2 type="question" n="53"
+<div2 type="question" n="53">
    <ab rend="3-L">
       53. Have you held or do you now hold any public office? (Name)
       <add hand="#AJC">
-         <lb>Principal <orgName>M. St High School</orgName> Washington D.C. 1901 to 1906.</lb>
+         <lb/>Principal <orgName>M. St High School</orgName> Washington D.C. 1901 to 1906.
       </add>
    </ab>
 </div2>
@@ -919,9 +919,9 @@
    <ab rend="3-L">
       54. Books published
       <add hand="#AJC">
-         <lb>A voice from the South,</lb>
-         <lb>L'Attitude de la France à l'Eqard de l'Esclavage. These </lb>
-         <lb>10. Poem de Peterinaqe de Charlemagne avee slossaire edited </lb>
+         <lb/>A voice from the South,
+         <lb/>L'Attitude de la France à l'Eqard de l'Esclavage. These 
+         <lb/>10. Poem de Peterinaqe de Charlemagne avee slossaire edited 
       </add>
    </ab>
 </div2>
@@ -929,10 +929,10 @@
                <ab rend="3-L">
                   55. Types of important articles published
                   <add hand="#AJC">
-                     <lb>"Educational Programs"</space>Simon of Cpene - "The Southland" "the first Negro Mag<damaged/></lb>
-                     <lb>The Ethics of the Negro Question-, The Social Social Settlement what it is + what it does etc.</lb>
-                     <lb>Summer Editor Southern Work</lb>
-                     <lb>Ha<unclear/></lb>
+                     <lb/>"Educational Programs"<space/>Simon of Cpene - "The Southland" "the first Negro Mag<damage/>
+                     <lb/>The Ethics of the Negro Question-, The Social Social Settlement what it is + what it does etc.
+                     <lb/>Summer Editor Southern Work
+                     <lb/>Ha<unclear/>
                   </add>
                </ab>
             </div2>
@@ -965,8 +965,8 @@
                <ab rend="3-L">
                   59. What further study have you engaged in since graduation?
                   <add hand="#AJC">
-                  <lb>4 Graduate courses at <orgName>La Guilde Internationale</orgName></lb>
-                  <lb>8 Full Courses <orgName>S.S. Columbia</orgName>: Dept. Romance Lang., French 101, 102, 103, 104, 105, 106,</lb>
+                  <lb/>4 Graduate courses at <orgName>La Guilde Internationale</orgName>
+                  <lb/>8 Full Courses <orgName>S.S. Columbia</orgName>: Dept. Romance Lang., French 101, 102, 103, 104, 105, 106,
                </add>
                </ab>
             </div2>
@@ -974,13 +974,50 @@
                <ab rend="3-L">
                   60. List civic and social movements in which you are engaged
                   <add hand="#AJC">
-                     <lb><orgName>Speakers Bureau Community Chest</orgName></lb>
-                     <lb><orgName>Phyllis Wheatley</orgName> <orgName>Y.W.C.A.</orgName>, <orgName>N.A.A.C.P.</orgName> <orgName>Vi Omega Chap Alpha Kappa Alpha sc</orgName></lb>
+                     <lb/><orgName>Speakers Bureau Community Chest</orgName>
+                     <lb/><orgName>Phyllis Wheatley</orgName> <orgName>Y.W.C.A.</orgName>, <orgName>N.A.A.C.P.</orgName> <orgName>Vi Omega Chap Alpha Kappa Alpha sc</orgName>
+                  </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="61">
+               <ab rend="3-L">
+               61. Offices held in civic and social organizations.
+               <add hand="#AJC">
+                  
+                  <lb/><orgName>Supervisor Colored Social Settlement</orgName>
+                  <lb/><orgName>Chief Guardian Campfire Girls</orgName>, <orgName>Organizer Girls Clubs Y.W.</orgName> <orgName>War Camp <unclear>Commun</unclear></orgName>
+                  <lb/><unclear>Change Color dure </unclear>
+               </add>
+               </ab>
+            </div2>
+            <div2 type="question" n="62">
+               <ab rend="3-L">
+               62. In what racial movements are you actively interested?
+               <add hand="#AJC">
+                  National R. Association
+               </add>
+               </ab>
+            </div2>
+                  <div2 type="question" n="63">
+                     <ab rend="3-L">
+                     63. Offices in them
+                     </ab>
+               </div2>
+            <div2 type="question" n="64">
+               <ab rend="3-L">
+               64. Do you vote where you now reside?
+               <add hand="AJC">
+                  None do
+               </add>
+                  To what political party do you belong?
+                  <add hand="AJC">
+                     Independent
                   </add>
                </ab>
             </div2>
             <div2 type="question" n="65">
-               <ab rend="4-L">65. Have you a <q>racial philosophy</q> that can be briefly stated?
+               <ab rend="4-L">
+                  65. Have you a <q>racial philosophy</q> that can be briefly stated?
                      <add hand="AJC">My <q>racial philosophy</q> is not far removed <lb/>from my
                      general philosophy of life: that the greatest happiness comes from altruistic
                      service—&amp; this <lb/>is in reach of all of whatever race &amp; condition.
@@ -991,7 +1028,16 @@
                         last page.</note></add>
                </ab>
             </div2>
-
+<div2 type="question" n="66">
+   <ab rend="4-L">
+      66. Will you give the name of one or more of your childhood associates (whether they went to college or not) with their present address (if possible), schooling and occupation?
+      <add hand="AJC">
+         <lb/><name>Dr S.G. Atkins</name><name>Prin. Winston-Salemalnot</name>, <name>N.C</name>
+         <lb/><name>Mrs. Nannie/Delaney</name>(widow <name>Bishop Delaney</name>) 80 Edgecomb Ave, New York City Dean of Wisk
+         <name>Mrs. Jane Thomas Caspar</name>Ave. A Huntersville Norfolk VA. Former teacher social <name>Mrs. M.E. Neale</name>
+      </add>
+   </ab>
+</div2>
             <pb n="6"/>
             <div2 type="page-heading">
                <head>SPACE RESERVED FOR SPECIAL COMMENT</head>
