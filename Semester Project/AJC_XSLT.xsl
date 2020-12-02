@@ -55,13 +55,13 @@
         <table>
             <tr>
                 <xsl:for-each select="row[@role='label']/cell">
-                    <th><xsl:value-of select="."/></th>
+                    <th><xsl:apply-templates/></th>
                 </xsl:for-each>
             </tr>
             <xsl:for-each select="row[@n]">
                 <tr>
                     <xsl:for-each select="cell">
-                        <td><xsl:value-of select="."/></td>
+                        <td><xsl:apply-templates/></td>
                     </xsl:for-each>
                 </tr>     
             </xsl:for-each>             
