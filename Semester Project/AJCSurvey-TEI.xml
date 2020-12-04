@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="AJC_schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 
-<?xml-model href="../TEI-ODD-AJC/out/AJCSurvey-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="AJC%20schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -851,8 +850,17 @@
                   </add>
                </ab>
             </div2>
+            <!--2020-12-04 Syed: Here is where to add new code for the questions you transcribed.
+            BE CAREFUL ABOUT ADDING QUESTIONS ON PAGE 3 here-->
+            
             <pb n="4"/>
+            <!--2020-12-04 Syed: Here is where to add new code for the questions you transcribed.
+            BE CAREFUL ABOUT ADDING QUESTIONS ON PAGE 4 here-->
+            
+        
             <pb n="5"/>
+            <!--2020-12-04 Syed: Here is where to add new code for the questions you transcribed.
+            BE CAREFUL ABOUT ADDING QUESTIONS ON PAGE 5 here-->
 
 
 

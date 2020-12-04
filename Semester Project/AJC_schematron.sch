@@ -6,6 +6,15 @@
     <ns uri="http://www.tei-c.org/ns/1.0" prefix="tei"/>
     
     <pattern>
+        <rule context="tei:div2[@type='question'][count(preceding::tei:div2[@type='question']) gt 0]">
+            <assert test="@n = count(preceding::tei:div2[@type='question']) + 1">
+                We have a problem! The counting isn't lining up! 
+            </assert>
+        </rule>
+        
+    </pattern>
+    
+    <pattern>
         <rule context="tei:ab">
             <report test="@hand">
                 Do not put hand attribute in the ab. This should go in the TEI add element.
