@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?xml-model href="../TEI-ODD-AJC/out/AJCSurvey-ODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="AJC%20schematron.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -56,7 +57,7 @@
          <div1 type="section" n="I">
             <head>I. SOCIAL INFORMATION</head>
             <div2 type="question" n="1">
-               <ab> 1. Name <add hand="#AJC"><persName><forename type="first">Anna</forename>
+               <ab> 1. Name <add hand="#AJC"><persName><forename type="first">Annna</forename>
                         <forename type="middle">Julia</forename>
                         <surname type="married">Cooper</surname></persName></add>
                </ab>
@@ -86,11 +87,11 @@
                </ab>
             </div2>
             <div2 type="question" n="6">
-               <ab>6. Marital status: Single <add hand="#AJC">Widowed</add> Married <add hand="#AJC"
-                        ><metamark function="checkmark"/></add> Date of marriage <add hand="#AJC"
+               <ab> 6. Marital status: Single <add hand="#AJC">Widowed</add> Married <add hand="#AJC"
+                        ><metamark rend="checkmark"/></add> Date of marriage <add hand="#AJC"
                      >June 21, 1877</add> Age at marriage <add hand="#AJC">17</add>
                   Divorced<space/>Date<space/>Separated<space/>Date<space/>Widowed <add hand="#AJC"
-                        ><metamark function="checkmark"/></add> Date <add hand="#AJC">Sept 27,
+                        ><metamark rend="checkmark"/></add> Date <add hand="#AJC">Sept 27,
                      1879</add>
                   Deserted<space/>Date<space/>Remarried<space/>Date<space/><!--ebb: Does this need more structure to help indicate what AJC left blank? -->
                </ab>
@@ -210,7 +211,7 @@
                   deducting expenses of earning except income tax<space/>or kindly check the class
                   within which your net income falls: </ab>
                <ab> Under $500<space/>$500- $999<space/>$1000-$1499 <add hand="#AJC"><metamark
-                        function="checkmark"/></add>
+                        rend="checkmark"/></add>
                   $1500-$1999<space/>$2000-$2499<space/>$2500-$2999<space/>$3000-$3499<space/>$3500-$3999<space/>$4000-$4499<space/>$4500-$4999<space/>$5000-$5999<space/>$6000-$6999<space/>$7000-$7999<space/>$8000-$8999<space/>$9000-$9999<space/>$10,000
                   and over<space/>
                </ab>
@@ -454,12 +455,12 @@
                </table>
             </div2>
             <div2 type="question" n="17">
-               <ab>
-                  <lb/>17. Father: Birthplace <add hand="#AJC">I do not know</add> Present
+               <ab>17. Father: Birthplace <add hand="#AJC">I do not know</add> Present
                   occupation <space/>
-                  <lb/>Education: (Draw circle around last grade completed) <lb/>Grammar
-                  school---1-2-3-4-5-6-7-8; High School---1-2-3-4; College---1-2-3-4-5-6-7-8 <lb/>Of
-                  what college or professional school a graduate <space/> Degree <space/>
+                  Education: (Draw circle around last grade completed) 
+                  Grammar
+                  school---1-2-3-4-5-6-7-8; High School---1-2-3-4; College---1-2-3-4-5-6-7-8 
+                  Of what college or professional school a graduate <space/> Degree <space/>
                </ab>
             </div2>
             <div2 type="question" n="18">
@@ -496,13 +497,13 @@
                </ab>
             </div2>
             <div2 type="question" n="21">
-               <ab rend="1-L">21. Preparatory Training: <add hand="#AJC"><placeName>Raleigh N.
+               <ab rend="1-L"> 21. Preparatory Training: <add hand="#AJC"><placeName>Raleigh N.
                         C.</placeName></add> Date of graduation <add hand="#AJC">No graduations in
                      my day.</add>
                </ab>
             </div2>
             <div2 type="question" n="22">
-               <ab rend="3-L">22. As you think of it now, do you regard your preparatory training,
+               <ab rend="3-L"> 22. As you think of it now, do you regard your preparatory training,
                   before college, as adequate or defective? i.e., What deficiencies or omissions in
                   that period do you feel would be of value to you? Please comment briefly <add
                      hand="#AJC"><lb/>Under <persName>Dr. J. <surname>Brinton
@@ -525,7 +526,7 @@
                </ab>
             </div2>
             <div2 type="question" n="23">
-               <ab>23. College and Professional Training:</ab>
+               <ab> 23. College and Professional Training:</ab>
                <table rend="boxed" rows="6" cols="3">
                   <row role="label">
                      <cell><hi rend="italic">Institution</hi></cell>
@@ -564,12 +565,12 @@
                      <cell><add hand="#AJC">5 <orgName>Universite de Paris</orgName>, La
                            Sorbonne</add></cell>
                      <cell><add hand="#AJC">1924 - '25. Residence &amp; thesis</add></cell>
-                     <cell><add hand="#AJC"><metamark function="verticalLine"/> PHD.</add></cell>
+                     <cell><add hand="#AJC"><metamark rend="verticalLine"/> PHD.</add></cell>
                   </row>
                </table>
             </div2>
             <div2 type="question" n="24">
-               <ab>24. How was your education supported? <add hand="#AJC">Personal
+               <ab> 24. How was your education supported? <add hand="#AJC">Personal
                   earnings</add></ab>
             </div2>
             <div2 type="question" n="25">
@@ -586,7 +587,7 @@
             </div2>
             <div2 type="question" n="27">
                <ab> 27. What was your major subject or special training in college? <add hand="#AJC"
-                     >Mathematics <metamark function="verticaLine"/> I took all in the course.</add>
+                     >Mathematics <metamark rend="verticaLine"/> I took all in the course.</add>
                </ab>
             </div2>
             <div2 type="question" n="28">
@@ -689,7 +690,7 @@
 
             <pb n="3"/>
             <div2 type="question" n="36">
-               <ab rend="1-L">36. How well did you do in college? <add hand="#AJC">Hardly a fair
+               <ab rend="1-L"> 36. How well did you do in college? <add hand="#AJC">Hardly a fair
                      question for personal answer. I did my best &amp; <metamark
                         rend="short-connecting-line"/><lb/><note resp="#ebb">Here AJC’s text flows
                         upside-down along the top of the form</note> 4 Professors including
@@ -857,7 +858,7 @@
 
             <div2 type="question" n="65">
                <ab rend="4-L">65. Have you a <q>racial philosophy</q> that can be briefly stated?
-                     <add hand="AJC">My <q>racial philosophy</q> is not far removed <lb/>from my
+                     <add hand="#AJC">My <q>racial philosophy</q> is not far removed <lb/>from my
                      general philosophy of life: that the greatest happiness comes from altruistic
                      service—&amp; this <lb/>is in reach of all of whatever race &amp; condition.
                      The <q>Service</q> here meant it is not a pious idea of <hi rend="underline"
@@ -874,14 +875,17 @@
             </div2>
 
             <div2 type="margin">
-               <ab hand="AJC">
-                  <gap/>ily Service <gap/>d Girls Work <gap/>g World War. </ab>
+               <ab>
+                  <add hand="#AJC">
+                     <gap reason="image cut off on left margin"/>ily Service <gap reason="image cut off on left margin"/>d Girls Work <gap reason="image cut off on left margin"/>g World War. 
+                  </add>
+               </ab>
             </div2>
             <!--ebb: There are a few words in the left margin that are not clearly visible and don't seem to be connected to the flow of these paragraphs in AJC's response. We can sort of collect these up here, because they're not really in sequence with the text below.-->
 
             <metamark function="flag" rend="pointer" target="(65 cont.)"/>
             <div2 type="continuation" n="65">
-               <ab hand="#AJC">65 cont.) of Pollyanna stuff. I am as sensitive to handicaps as those
+               <ab>65 cont.) <add hand="#AJC">of Pollyanna stuff. I am as sensitive to handicaps as those
                   who are <lb/>always whining about them &amp; the whips &amp; slings of prejudice,
                   <lb/>whether of color or sex, find me neither too calloused to suffer nor too
                   ignorant <lb/>to know what is due me. Our own men as a group have not inherited
@@ -892,15 +896,15 @@
                   <lb/>goes only with color. When I encounter <lb/>brutality I need not always
                   charge it to my race. It may be—&amp; generally is— chargeable to the
                   <lb/>imperfections in the civilization envisioning me for which as a teacher &amp;
-                  trained <lb/>thinker. I take my share of responsibility.</ab>
+                  trained <lb/>thinker. I take my share of responsibility.
                <lb/>
-               <p hand="#AJC">The extent, then, of the optimism in my philosophy is that,
+               The extent, then, of the optimism in my philosophy is that,
                   (Statisticians &amp; Social Science Research <lb/>compilers to the contrary
                   notwithstanding) the solution of our problem will be the individual &amp; <lb/>not
                   en masse, &amp; the habit of generalization &amp; deductive logic has done its
-                  worst.</p>
+                  worst.
                <lb/>
-               <p>For after all, Social Justice the desired goal is not to be reached thro any
+               For after all, Social Justice the desired goal is not to be reached thro any
                   panacea <lb/>by mass production. whether <persName>DuBois</persName>'s preachment
                   of the ballot for &amp; <unclear reason="illegible">intermarriage</unclear>
                   <lb/>or <persName>Kelly Miller</persName>'s one time suggestion of self
@@ -910,20 +914,20 @@
                   finger weak enough <lb/>to give up the struggle. The ballot operates just so far
                   as dominant forces agree to respect it. Which <lb/>again is reasoning in a circle
                   to insane justice by having man become just. &amp; the spectacle of
-                  <lb/><gap/>angsler dominance among ballot holding Americans invites little hope
+                  <lb/><gap reason="image cut off on left margin"/>angsler dominance among ballot holding Americans invites little hope
                   for solution <lb/>when the element of race is added to the problem. As I see it
                   then, the patient persistence of <lb/>the individual, working as
                      <persName>Browning</persName> has it, <quote>"mouth wise &amp; pen
                      wise"</quote> in whatever station &amp; <lb/>with whatever talent God has
                   given, in truth &amp; loyalty to serve the whole, will come as <lb/>near as any
-                  other to proving worth while.</p>
+                  other to proving worth while.
                <lb/>
-               <p hand="#AJC">To me Life has meant a big opportunity &amp; I am thankful that my
+               <lb/>To me Life has meant a big opportunity &amp; I am thankful that my
                   work has <lb/>always been the soul that beckoned me on, leaving no room for blase
                   philosophizing &amp; <lb/>rebellious resentment &amp; with just enough opposition
                   to give zest to the struggle, just enough hope of scoring <gap
                      reason="image cut off on left marging"/><supplied resp="#ebb"
-                  >so</supplied>mewhere among the winners to keep my head "unbowed tho bloody."</p>
+                        >so</supplied>mewhere among the winners to keep my head "unbowed tho bloody."</add></ab>
             </div2>
          </div1>
 
