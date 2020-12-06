@@ -97,7 +97,7 @@
     
     <xsl:template match="metamark">
         <xsl:choose>
-            <xsl:when test="@function='checkmark'">
+            <xsl:when test="@rend='checkmark'">
                 <span class="meta">&#10003; </span>
             </xsl:when>
             <xsl:otherwise>

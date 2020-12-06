@@ -638,48 +638,91 @@
                </ab>
             </div2>
             <div2 type="question" n="35">
-               <table rend="boxed" rows="11" cols="3">
+               <table rend="boxed" rows="11" cols="6">
                   <row role="label">
+                     <cell/>
+                     <cell>Regularly</cell>
+                     <cell>Occasionally</cell>
                      <cell/>
                      <cell>Regularly</cell>
                      <cell>Occasionally</cell>
                   </row>
                   <row n="1">
-                     <cell>35. On campus</cell>
+                     <cell>35. A. On campus</cell>
+                     <cell/>
+                     <cell/>
+                     <cell>On campus</cell>
                      <cell/>
                      <cell/>
                   </row>
                   <row n="2">
+                     <cell>Athletics</cell>
+                     <cell/>
+                     <cell/>
                      <cell>Social club</cell>
                      <cell/>
                      <cell/>
                   </row>
                   <row n="3">
+                     <cell>Oratory and debating</cell>
+                     <cell/>
+                     <cell><metamark rend="checkmark"/></cell>
                      <cell>Other forms</cell>
                      <cell/>
                      <cell/>
                   </row>
                   <row n="4">
-                     <cell>B. Off campus</cell>
+                     <cell>Fraternity or sorority</cell>
+                     <cell/>
+                     <cell/>
+                     <cell/>
                      <cell/>
                      <cell/>
                   </row>
                   <row n="5">
-                     <cell>Church work</cell>
+                     <cell>Literary society</cell>
+                     <cell><metamark rend="checkmark"/></cell>
+                     <cell/>
+                     <cell/>
                      <cell/>
                      <cell/>
                   </row>
                   <row n="6">
-                     <cell>Social club</cell>
+                     <cell>Dramatics</cell>
+                     <cell/>
+                     <cell/>
+                     <cell>B. Off campus</cell>
                      <cell/>
                      <cell/>
                   </row>
                   <row n="7">
-                     <cell>Civic or social service</cell>
+                     <cell>Music</cell>
+                     <cell/>
+                     <cell/>
+                     <cell>Church work</cell>
                      <cell/>
                      <cell/>
                   </row>
                   <row n="8">
+                     <cell>Religion</cell>
+                     <cell/>
+                     <cell/>
+                     <cell>Social club</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="9">
+                     <cell>Publications</cell>
+                     <cell/>
+                     <cell/>
+                     <cell>Civic or social service</cell>
+                     <cell/>
+                     <cell/>
+                  </row>
+                  <row n="10">
+                     <cell>Student government</cell>
+                     <cell/>
+                     <cell/>
                      <cell>Other forms</cell>
                      <cell/>
                      <cell/>

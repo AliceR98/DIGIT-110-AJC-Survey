@@ -30,7 +30,7 @@
         </rule>
         <rule context="tei:metamark">
             <assert test="@rend">
-                metamark must have a function attribute
+                metamark must have a rend attribute
             </assert>
         </rule>
         <rule context="tei:div1">
