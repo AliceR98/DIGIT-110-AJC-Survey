@@ -286,7 +286,8 @@
                   </row>
                </table>
             </div2>
-            <pb n="1"/>
+            <pb n="1"/> <!-- alr: the pb signifies the end of a page. -->
+            
             <div2 type="question" n="12">
                <list>
                   <head>Means of securing present employment (underline):</head>
@@ -479,9 +480,9 @@
                </ab>
             </div2>
          </div1>
-         <!-- more to add here: the rest of the questions on page 1 -->
          <pb n="2"/>
-         <!--pb means page-beginning, so we can use it to mark the page turns. -->
+         
+         
          <div1 type="section" n="II">
             <head>II. UNDERGRADUATE HISTORY</head>
             <div2 type="question" n="20">
@@ -686,8 +687,9 @@
                </table>
             </div2>
             <!--more survey questions / answers -->
-
             <pb n="3"/>
+            
+            
             <div2 type="question" n="36">
                <ab rend="1-L"> 36. How well did you do in college? <add hand="#AJC">Hardly a fair
                      question for personal answer. I did my best &amp; <metamark
@@ -853,8 +855,9 @@
             <!--2020-12-04 Syed: Here is where to add new code for the questions you transcribed.
             BE CAREFUL ABOUT ADDING QUESTIONS ON PAGE 3 here-->
             <!--Cannot find anything above page 5, all the future comments went to page 4. - Syed-->
-            
             <pb n="4"/>
+            
+            
             <div2 type="question" n="53">
                <ab rend="3-L">
                   53. Have you held or do you now hold any public office? (Name)
@@ -989,6 +992,8 @@
                      <lb/><name>Mrs. Professor Auderegg</name>207 East College St. Oberlin O. Conservatory Oberlin 1885
                   </add>
                </ab>
+            </div2>
+             <div2 type="question" n="67">
                <ab rend="4-L">
                   67. Will you give briefly your views of the future of Negro education? (What it should be, what changes might be made in the light of your experience; it's present direction, value, etc., for the development of Negro youth.)      
                   <add hand="#AJC">
@@ -1000,28 +1005,13 @@
                      <lb/>See also: "Anonymous" paragraph enclosed here with.
                   </add>
                </ab>
-            </div2>
-            
-        
+             </div2>
             <pb n="5"/>
             <!--2020-12-04 Syed: Here is where to add new code for the questions you transcribed.
             BE CAREFUL ABOUT ADDING QUESTIONS ON PAGE 5 here-->
 
-
-            <div2 type="question" n="65">
-               <ab rend="4-L">65. Have you a <q>racial philosophy</q> that can be briefly stated?
-                     <add hand="#AJC">My <q>racial philosophy</q> is not far removed <lb/>from my
-                     general philosophy of life: that the greatest happiness comes from altruistic
-                     service—&amp; this <lb/>is in reach of all of whatever race &amp; condition.
-                     The <q>Service</q> here meant it is not a pious idea of <hi rend="underline"
-                        >being used;</hi>
-                     <lb/>any sort of exploitation whether active or passive is to my mind hateful.
-                     Nor is the <q>Happiness</q> a mere bit.<note resp="#ebb">This continues on the
-                        last page.</note></add>
-               </ab>
-            </div2>
-
-            <pb n="6"/>
+            
+            
             <div2 type="page-heading">
                <head>SPACE RESERVED FOR SPECIAL COMMENT</head>
             </div2>
@@ -1082,6 +1072,7 @@
                         >so</supplied>mewhere among the winners to keep my head "unbowed tho bloody."</add></ab>
             </div2>
          </div1>
+         <pb n="6"/>
 
       </body>
    </text>
