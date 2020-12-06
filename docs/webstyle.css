@@ -1,9 +1,82 @@
 body {
-background-color: AliceBlue;
-color: Black;
-font-family: arial, helvetica, sans-serif;
+background-color: Aliceblue;
+font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
-ol {list-style-type: lower-alpha;
-padding: 5em;
+
+ol {
+list-style-type: none;
+display: inline-block;
+    
+}
+
+
+.gap {
+    background-color: #ccc;
+    color: #c00;
+    font-style: italic;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.AJC {
+    display: block;
+    width: 20%;
+    margin: auto;
+}
+
+#banner, #menu, #middle {
+    width: 1250px;
+}
+
+#banner {
+    text-align: center;
+    padding: 10px 0 0 0;
+}
+
+#banner h1 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 3em;
+    line-height: 0px;
+}
+
+#banner h2 {
+    font-size: 1em;
+    font-style: italic; 
+}
+
+#banner h1, #banner h2{
+    color: indigo;
+}
+
+#menu {
+padding: 0 0 0 5px;
+height: 30px;
+margin: 0px auto;
+background: #27006b; 
+}
+
+#menu a {
+vertical-align: baseline;
+display: block;
+float: left;
+padding: 5px 10px 7px 10px;
+text-decoration: none;
+font-family: Georgia, serif;
+text-align: center;
+color: #ffffff;}
+
+#menu a:hover{
+    background: white;
+    color: black;
+}
+
+#middle{
+    margin: 0px auto;
+    padding: 0 0 10px 0;
+    background:#ffffff;
+}
+
+#content{
+    width: 1100px;
+    margin: 15px auto;
     
 }
