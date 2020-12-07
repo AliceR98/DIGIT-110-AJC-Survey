@@ -17,6 +17,13 @@ display: inline-block;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
+.stdimg {
+    display: block;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
 .AJC {
     display: block;
     width: 20%;
