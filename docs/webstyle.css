@@ -73,6 +73,7 @@ color: #ffffff;}
 #menu a:hover{
     background: white;
     color: black;
+    opacity: .5;
 }
 
 #middle{
