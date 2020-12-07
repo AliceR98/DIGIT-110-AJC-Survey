@@ -139,8 +139,8 @@
         <span class="blank">&#160; </span>
     </xsl:template>
     
-    <xsl:template match="del"
-        ><del><xsl:apply-templates/></del>  
+    <xsl:template match="del">
+        <del><xsl:apply-templates/></del>  
     </xsl:template>
     
     <xsl:template match="unclear">
