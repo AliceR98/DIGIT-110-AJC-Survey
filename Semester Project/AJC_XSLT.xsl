@@ -29,8 +29,9 @@
                     <hr/>
                     
                     <div id="content">
+                        <br/>
                         <h1><xsl:apply-templates select="descendant::title[@type='main']"/></h1>
-                        <h1><i><xsl:apply-templates select="descendant::title[@type='sub']"/></i></h1>
+                        <h1><i><xsl:apply-templates select="descendant::title[@type='sub']"/></i></h1><!-- table for orgNames, persNames, and placeNames -->                        
                         <xsl:apply-templates select="descendant::div1"/> 
                         <p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text">This work   is licensed under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" /></a></p>
                     </div>               
@@ -39,11 +40,39 @@
         </html>
     </xsl:template>
     
+    
+    
     <xsl:template match="div1">
+        <section id="table">
+            <table>
+                <tr>
+                    <th>Question number</th>
+                    <th>People</th>
+                    <th>Organizations</th>
+                    <th>Places</th>
+                </tr>
+                <xsl:apply-templates select="descendant::div2" mode="table"/>
+            </table>
+        </section>
         <section id="S{count(preceding-sibling::div1) + 1}">
             <h3><xsl:apply-templates select="descendant::head[1]"/></h3>
             <xsl:apply-templates select="descendant::div2"/>
         </section>
+    </xsl:template>
+    
+    <xsl:template match="div2" mode="table">
+        <tr>
+            <td><!-- question number goes here --></td>
+            <td>
+                <xsl:value-of select="ab/add/persName | table/row/cell/add/persName => sort()" separator=", "/>
+            </td>
+            <td>
+                <xsl:value-of select="ab/add/orgName | table/row/cell/add/orgName => sort()" separator=", "/>
+            </td>
+            <td>
+                <xsl:value-of select="ab/add/placeName | table/row/cell/add/placeName => sort()" separator=", "/>
+            </td>
+        </tr>
     </xsl:template>
     
     <xsl:template match="div2">
@@ -110,7 +139,7 @@
         <span class="blank">&#160; </span>
     </xsl:template>
     
-    <xsl:template match="del[@rend='strikethrough']"
+    <xsl:template match="del"
         ><del><xsl:apply-templates/></del>  
     </xsl:template>
     
