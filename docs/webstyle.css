@@ -19,8 +19,8 @@ display: inline-block;
 
 .stdimg {
     display: block;
-    width: 200px;
-    height: 200px;
+    width: 50%;
+    height: 50%;
     margin: auto;
 }
 
