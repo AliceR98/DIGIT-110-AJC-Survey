@@ -1,5 +1,5 @@
 body {
-background-color: Aliceblue;
+background-color: #d6ebff;
 font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
@@ -29,9 +29,12 @@ display: inline-block;
     margin: auto;
 }
 
-#banner, #menu, #middle {
-    width: 1225px;
+.center {
+    display: block;
+    width: 30%;
+    margin: auto;
 }
+
 
 #banner {
     text-align: center;
@@ -77,8 +80,9 @@ color: #ffffff;}
 }
 
 #middle{
+    width: 1225px;
     margin: 0px auto;
-    padding: 0 0 10px 0;
+    padding: 0 0 0 0px;
     background:#ffffff;
 }
 
@@ -86,4 +90,19 @@ color: #ffffff;}
     width: 1100px;
     margin: 15px auto;
     
+}
+
+#footer {
+height: 50px;
+margin: 0px auto;
+background: #27006b;
+color: white;
+}
+
+#footer p{
+    margin: 0px;
+    padding: 10px 10px 10px 10px;
+}
+#footer a{
+    color: #d6ebff;
 }

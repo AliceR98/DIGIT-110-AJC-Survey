@@ -23,8 +23,9 @@
                     </div>
                     <hr/>
                     <div id="menu">
-                        <a href="index.html">Main</a> <a href="about.html">About</a>
-                        <a href="AJC-output.html">Texts</a> <a href="analysis.html">Analysis</a>
+                        <a href="index.html">Main</a> <a href="aboutSection.html">About</a>
+                        <a href="AJC-output.html">Texts</a><a href="document.html">Original Document</a> <a href="originalCode.html">Source Code</a>
+                        <a href="projectInfo.html">Project Information</a>
                     </div>
                     <hr/>
                     
@@ -44,9 +45,12 @@
                                 <xsl:apply-templates select="descendant::div2[descendant::persName or descendant::orgName or descendant::placeName]" mode="table"/>
                             </table>
                         </section>
-                        <xsl:apply-templates select="descendant::div1"/> 
+                        <xsl:apply-templates select="descendant::div1"/>
+                        
+                    </div>   
+                    <div id="footer">
                         <p xmlns:dct="http://purl.org/dc/terms/" xmlns:cc="http://creativecommons.org/ns#" class="license-text">This work   is licensed under <a rel="license" href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" /><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1" /></a></p>
-                    </div>               
+                    </div>
                 </div>
             </body>
         </html>
