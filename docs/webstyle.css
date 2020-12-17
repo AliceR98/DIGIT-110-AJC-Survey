@@ -9,6 +9,44 @@ display: inline-block;
     
 }
 
+h1 {
+    line-height: 80%;
+}
+
+#S1, #S2, #S3 {
+    line-height: 200%;
+    font-family: Georgia, serif;
+}
+
+ins {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #bdf1ff;
+}
+
+#table table, #table th, #table td{
+border: 1px solid #000066;    
+padding: 5px;
+vertical-align:top;
+}
+
+table, th, td{
+border: 1.75px;
+border-collapse: collapse;   
+padding: 10px;
+vertical-align:top;
+}
+
+table {
+    border-style: solid;
+}
+
+td {
+    border-style: dashed solid dashed solid;
+}
+
+th {
+    border-style: solid;
+}
 
 .gap {
     background-color: #ccc;
