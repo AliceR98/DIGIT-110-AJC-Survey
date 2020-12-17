@@ -3,6 +3,10 @@ background-color: #d6ebff;
 font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
+h1, h2, h3{
+    font-family: Georgia, serif;
+}
+
 ol {
 list-style-type: none;
 display: inline-block;
@@ -20,7 +24,9 @@ h1 {
 
 ins {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
-    background: #bdf1ff;
+    padding: 5px;
+    border: 1.5px dashed;
+    text-decoration: none;
 }
 
 #table table, #table th, #table td{
@@ -48,11 +54,23 @@ th {
     border-style: solid;
 }
 
+.unclear {
+    background: #ffc7c7;
+}
+
 .gap {
-    background-color: #ccc;
+    background-color: #d6d6d6;
     color: #c00;
+    padding: 2px 5px 2px 5px;
     font-style: italic;
+    font-weight: bold;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.top {
+    font-size: 70%;
+    line-height: 70%;
+    text-align: right;
 }
 
 .stdimg {

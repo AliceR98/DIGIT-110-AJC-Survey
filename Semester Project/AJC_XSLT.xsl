@@ -34,6 +34,7 @@
                         <h1><xsl:apply-templates select="descendant::title[@type='main']"/></h1>
                         <h1><i><xsl:apply-templates select="descendant::title[@type='sub']"/></i></h1><!-- table for orgNames, persNames, and placeNames -->           
                         <section id="table">
+                            <br/>
                             <h3>Information about People, Places, and Organizations Mentioned in Survey</h3>
                             <table>
                                 <tr>
@@ -84,7 +85,7 @@
         <div id="Q{count(preceding::div2) + 1}">
             <xsl:choose>
                 <xsl:when test="ab">
-                    <xsl:apply-templates/>
+                    <xsl:apply-templates/>   
                 </xsl:when>
                 <xsl:when test="table">
                     <xsl:apply-templates select="table"/>
@@ -95,10 +96,12 @@
                 <xsl:otherwise>
                     <xsl:apply-templates/>
                 </xsl:otherwise>
-            </xsl:choose>   
+            </xsl:choose> 
+            <p class="top"><a href="#table">Back to table &#8593;</a></p>
         </div>     
         <br/>
     </xsl:template>
+
     <xsl:template match="table">
         <table>
             <tr>
