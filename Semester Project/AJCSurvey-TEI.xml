@@ -1061,6 +1061,7 @@
             </div2>
             
             <div2 type="continuation" n="46">
+               <metamark function="flag" rend="pointer" target="(46 cont.)"/>
                <ab>46 cont.) <add hand="#AJC"><lb/>different cirriculum be granted the colored High School whose pupils he said were not capable of doing the regular work. Insubordination was changed &amp;
                   <lb/>effectively pressed when the Principal sent to Harvard, Yale, Brown, &amp; Oberlin
                   <lb/>students directly from them St. classes who passed successfully their entrance
@@ -1068,9 +1069,7 @@
                   <lb/>was listed as "accredited" by Harvard &amp; given the certificate privilege. For which
                   <lb/>unpardonable "Sin" against racial supremacy said principal suffers
                   <lb/>to this day the punishment of the damned from both the white masters &amp; the colored understaffers.
-                  
-               </add>
-               </ab>
+               </add></ab>
             </div2>
             <metamark function="flag" rend="pointer" target="(65 cont.)"/>
             <div2 type="continuation" n="65">
@@ -1120,7 +1119,6 @@
             </div2>
          </div1>
          <pb n="6"/>
-
       </body>
    </text>
 </TEI>
