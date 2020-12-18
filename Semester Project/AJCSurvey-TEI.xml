@@ -895,9 +895,6 @@
                   </add>
                </ab>
             </div2>
-            <!--2020-12-04 Syed: Here is where to add new code for the questions you transcribed.
-            BE CAREFUL ABOUT ADDING QUESTIONS ON PAGE 3 here-->
-            <!--Cannot find anything above page 5, all the future comments went to page 4. - Syed-->
             <pb n="4"/>
             
             
@@ -1050,10 +1047,6 @@
                </ab>
              </div2>
             <pb n="5"/>
-            <!--2020-12-04 Syed: Here is where to add new code for the questions you transcribed.
-            BE CAREFUL ABOUT ADDING QUESTIONS ON PAGE 5 here-->
-
-            
             
             <div2 type="page-heading">
                <head>SPACE RESERVED FOR SPECIAL COMMENT</head>
@@ -1066,11 +1059,22 @@
                   </add>
                </ab>
             </div2>
-            <!--ebb: There are a few words in the left margin that are not clearly visible and don't seem to be connected to the flow of these paragraphs in AJC's response. We can sort of collect these up here, because they're not really in sequence with the text below.-->
-
+            
+            <div2 type="continuation" n="46">
+               <ab>46 cont.) <add hand="#AJC"><lb/>different cirriculum be granted the colored High School whose pupils he said were not capable of doing the regular work. Insubordination was changed &amp;
+                  <lb/>effectively pressed when the Principal sent to Harvard, Yale, Brown, &amp; Oberlin
+                  <lb/>students directly from them St. classes who passed successfully their entrance
+                  <lb/>exams, some with high honors. The first time in its history the Colored H.S. of Wask
+                  <lb/>was listed as "accredited" by Harvard &amp; given the certificate privilege. For which
+                  <lb/>unpardonable "Sin" against racial supremacy said principal suffers
+                  <lb/>to this day the punishment of the damned from both the white masters &amp; the colored understaffers.
+                  
+               </add>
+               </ab>
+            </div2>
             <metamark function="flag" rend="pointer" target="(65 cont.)"/>
             <div2 type="continuation" n="65">
-               <ab>65 cont.) <add hand="#AJC">of Pollyanna stuff. I am as sensitive to handicaps as those
+               <ab>65 cont.) <add hand="#AJC"><lb/>of Pollyanna stuff. I am as sensitive to handicaps as those
                   who are <lb/>always whining about them &amp; the whips &amp; slings of prejudice,
                   <lb/>whether of color or sex, find me neither too calloused to suffer nor too
                   ignorant <lb/>to know what is due me. Our own men as a group have not inherited
