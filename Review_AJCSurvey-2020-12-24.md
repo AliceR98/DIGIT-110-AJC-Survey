@@ -55,4 +55,4 @@ Now, that project went on over two semesters and took on an afterlife of its own
 
 
 ### Closing Comments
-You both did some impressive work on this project, and it really is more than just a semester accomplishment. The AJC projects from our class are part of a network of new resources available on a path-breaking African American leader, and your website should be clear about your parts in building that network. Congratulations on your work in bringing this project to life!
+You both did some impressive work on this project, and it really is more than just a semester accomplishment. The AJC projects from our class are part of a network of new resources available on a path-breaking African American leader, and your website should be clear about your parts in building that network. I am happy to help you with any of these edits I'm suggesting, and I also think they will not be nearly as difficult as the intensive work you did to code the documents and transform them and bring the edition to life! 
