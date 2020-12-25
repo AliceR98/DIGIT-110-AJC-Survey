@@ -22,7 +22,8 @@ You want to think of this site, in a way, as a kind of organic node that can cha
 ### The Website that frames the edition
 The website that frames the edition is not nearly so well developed as the edition itself. That is to be expected: you put lots of your energy into preparing the edition, and it was probably not clear what the website around it is supposed to be doing. Think of the website as a sort of welcome and orientation space for people of all kinds: researchers of African American history, students around the world learning about history or about working with manuscripts. Your main page can welcome these readers. Right now your main page gives us a picture of AJC and two sentences: 
 ```
-Welcome to this site on Anna Julia Cooper! Here you will find a transcript of the Negro College Graduates Survey along with Cooper's responses to its questions.
+Welcome to this site on Anna Julia Cooper! Here you will find 
+a transcript of the Negro College Graduates Survey along with Cooper's responses to its questions.
 ```
 This is a start, but...what was this survey all about? Can you find out more about it? (Sure you can. I provided some resources on this back when we started working on this as a TEI assignment. You could: 
 * Read [a biographical sketch of Anna Julia Cooper](https://plato.stanford.edu/entries/anna-julia-cooper/#BioSke) to put the survey in context.
