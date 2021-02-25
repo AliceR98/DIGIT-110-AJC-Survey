@@ -895,9 +895,6 @@
                   </add>
                </ab>
             </div2>
-            <!--2020-12-04 Syed: Here is where to add new code for the questions you transcribed.
-            BE CAREFUL ABOUT ADDING QUESTIONS ON PAGE 3 here-->
-            <!--Cannot find anything above page 5, all the future comments went to page 4. - Syed-->
             <pb n="4"/>
             
             
@@ -1027,12 +1024,12 @@
                <ab rend="4-L">
                   66. Will you give the name of one or more of your childhood associates (whether they went to college or not) with their present address (if possible), schooling and occupation?
                   <add hand="#AJC">
-                     <lb/><name>Dr S.G. Atkins</name><name>Prin. Winston-Salemalnot</name>, <name>N.C</name>
-                     <lb/><name>Mrs. Nannie/Delaney</name>(widow <name>Bishop Delaney</name>) 80 Edgecomb Ave, New York City Dean of Wisk
-                     <name>Mrs. Jane Thomas Caspar</name>Ave. A Huntersville Norfolk VA. Former teacher social 
-                     <lb/><name>Mrs. M.E. Neale</name>/<name>Mrs. Doctor Luentin</name> 1315 Lynne Ave, Pawhuska Okla
-                     <lb/>while[<name>Mrs. Anna Metcalf Root</name> 333 East 53d St. New York City] B.A. Oberlin 1884
-                     <lb/><name>Mrs. Professor Auderegg</name>207 East College St. Oberlin O. Conservatory Oberlin 1885
+                     <lb/><persName>Dr S.G. Atkins</persName><persName>Prin. Winston-Salemalnot</persName>, <persName>N.C</persName>
+                     <lb/><persName>Mrs. Nannie/Delaney</persName>(widow <persName>Bishop Delaney</persName>) 80 Edgecomb Ave, New York City Dean of Wisk
+                     <persName>Mrs. Jane Thomas Caspar</persName>Ave. A Huntersville Norfolk VA. Former teacher social 
+                     <lb/><persName>Mrs. M.E. Neale</persName>/<persName>Mrs. Doctor Luentin</persName> 1315 Lynne Ave, Pawhuska Okla
+                     <lb/>while[<persName>Mrs. Anna Metcalf Root</persName> 333 East 53d St. New York City] B.A. Oberlin 1884
+                     <lb/><persName>Mrs. Professor Auderegg</persName>207 East College St. Oberlin O. Conservatory Oberlin 1885
                   </add>
                </ab>
             </div2>
@@ -1050,10 +1047,6 @@
                </ab>
              </div2>
             <pb n="5"/>
-            <!--2020-12-04 Syed: Here is where to add new code for the questions you transcribed.
-            BE CAREFUL ABOUT ADDING QUESTIONS ON PAGE 5 here-->
-
-            
             
             <div2 type="page-heading">
                <head>SPACE RESERVED FOR SPECIAL COMMENT</head>
@@ -1066,11 +1059,21 @@
                   </add>
                </ab>
             </div2>
-            <!--ebb: There are a few words in the left margin that are not clearly visible and don't seem to be connected to the flow of these paragraphs in AJC's response. We can sort of collect these up here, because they're not really in sequence with the text below.-->
-
+            
+            <div2 type="continuation" n="46">
+               <ab>46 cont.) <add hand="#AJC"><lb/>different cirriculum be granted the colored High School whose pupils he said were not capable of doing the regular work. Insubordination was changed &amp;
+                  <lb/>effectively pressed when the Principal sent to Harvard, Yale, Brown, &amp; Oberlin
+                  <lb/>students directly from them St. classes who passed successfully their entrance
+                  <lb/>exams, some with high honors. The first time in its history the Colored H.S. of Wask
+                  <lb/>was listed as "accredited" by Harvard &amp; given the certificate privilege. For which
+                  <lb/>unpardonable "Sin" against racial supremacy said principal suffers
+                  <lb/>to this day the punishment of the damned from both the white masters &amp; the colored understaffers.
+               </add></ab>
+            </div2>
+            
             <metamark function="flag" rend="pointer" target="(65 cont.)"/>
             <div2 type="continuation" n="65">
-               <ab>65 cont.) <add hand="#AJC">of Pollyanna stuff. I am as sensitive to handicaps as those
+               <ab>65 cont.) <add hand="#AJC"><lb/>of Pollyanna stuff. I am as sensitive to handicaps as those
                   who are <lb/>always whining about them &amp; the whips &amp; slings of prejudice,
                   <lb/>whether of color or sex, find me neither too calloused to suffer nor too
                   ignorant <lb/>to know what is due me. Our own men as a group have not inherited
@@ -1116,7 +1119,6 @@
             </div2>
          </div1>
          <pb n="6"/>
-
       </body>
    </text>
 </TEI>
