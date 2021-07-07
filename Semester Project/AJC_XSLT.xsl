@@ -146,6 +146,10 @@
         </xsl:choose>
     </xsl:template>
     
+    <xsl:template match="note">
+        <span class="note"><xsl:apply-templates/></span>
+    </xsl:template>
+    
     <xsl:template match="space">
         <span class="blank">&#160; </span>
     </xsl:template>

@@ -58,7 +58,7 @@ th {
     background: #ffc7c7;
 }
 
-.gap {
+.gap, .note {
     background-color: #d6d6d6;
     color: #c00;
     padding: 2px 5px 2px 5px;
