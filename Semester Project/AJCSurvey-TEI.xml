@@ -53,6 +53,7 @@
       
       Try using the <lb/> element to mark the beginnings of AJC's lines if you are representing that.
       -->
+         <pb n="1"/> <!-- alr: the pb signifies the beginning of a page. -->
          <div1 type="section" n="I">
             <head>I. SOCIAL INFORMATION</head>
             <div2 type="question" n="1">
@@ -283,7 +284,8 @@
                   </row>
                </table>
             </div2>
-            <pb n="1"/> <!-- alr: the pb signifies the end of a page. -->
+            
+            <pb n="2"/>
             
             <div2 type="question" n="12">
                <list>
@@ -477,7 +479,8 @@
                </ab>
             </div2>
          </div1>
-         <pb n="2"/>
+         
+         <pb n="3"/>
          
          
          <div1 type="section" n="II">
@@ -726,7 +729,7 @@
                </table>
             </div2>
             <!--more survey questions / answers -->
-            <pb n="3"/>
+            <pb n="4"/>
             
             
             <div2 type="question" n="36">
@@ -903,7 +906,7 @@
                   </add>
                </ab>
             </div2>
-            <pb n="4"/>
+            <pb n="5"/>
             
             
             <div2 type="question" n="53">
@@ -929,10 +932,10 @@
                <ab rend="3-L">
                   55. Types of important articles published
                   <add hand="#AJC">
-                     <lb/>"Educational Programs"<space/>Simon of Cpene - "The Southland" "the first Negro Mag<damage/>
-                     <lb/>The Ethics of the Negro Question-, The Social Social Settlement what it is + what it does etc.
-                     <lb/>Summer Editor Southern Work
-                     <lb/>Ha<unclear/>
+                     <lb/><q>Educational Programms</q> Simon of Cyrene - <q>The Southland</q> the first Negro Mag<gap reason="small tear in right margin"/><supplied>a<note>words continue onto the next page of the survey</note>zine</supplied> <add place="below">in the <gap reason="small tear in right margin"/><supplied><placeName>U.<note>words continue onto the next page of the survey</note>S.A.</placeName></supplied></add>
+                     <lb/>The Ethics of the Negro Question-, The Social Social Settlement what it is &amp; what it does etc.
+                     <lb/>Summer Editor Southern Work<supplied><note>words continue onto the next page of the survey</note>man</supplied>
+                     <lb/>Ha<supplied><note>words continue onto the next page of the survey</note>mpton</supplied>
                   </add>
                </ab>
             </div2>
@@ -965,8 +968,8 @@
                <ab rend="3-L">
                   59. What further study have you engaged in since graduation?
                   <add hand="#AJC">
-                     <lb/>4 Graduate courses at <orgName>La Guilde Internationale</orgName>
-                     <lb/>8 Full Courses <orgName>S.S. Columbia</orgName>: Dept. Romance Lang., French 101, 102, 103, 104, 105, 106,
+                     <lb/>4 Graduate courses at <orgName>La Guilde Internation</orgName><supplied><note>words continue onto the next page of the survey</note>ale, Paris</supplied>
+                     <lb/>8 Full Courses <orgName>S.S. Columbia</orgName>: Dept. Romance Lang., French 101, 102, 103, 104, 105, 106, <supplied><note>words continue onto the next page of the survey</note>Philology &amp; Old FR.</supplied>
                   </add>
                </ab>
             </div2>
@@ -985,8 +988,9 @@
                   <add hand="#AJC">
                      
                      <lb/><orgName>Supervisor Colored Social Settlement</orgName>
-                     <lb/><orgName>Chief Guardian Campfire Girls</orgName>, <orgName>Organizer Girls Clubs Y.W.</orgName> <orgName>War Camp <unclear>Commun</unclear></orgName>
-                     <lb/><unclear>Change Color dure </unclear>
+                     <lb/><orgName>Chief Guardian Campfire Girls</orgName>, <orgName>Organizer Girls Clubs Y.W.</orgName> <orgName>War Camp Commun<supplied><note>words continue onto the next page of the survey</note>ity Service</supplied></orgName>
+                     <lb/>Charge Colore<supplied><note>words continue onto the next page of the survey</note>ed Girls Work</supplied>
+                     <lb/>duri<supplied><note>words continue onto the next page of the survey</note>ng World War.</supplied>
                   </add>
                </ab>
             </div2>
@@ -1099,25 +1103,16 @@
                      <lb/>See also: "Anonymous" paragraph enclosed here with.
                   </add>
                </ab>
-             </div2>
-            <pb n="5"/>
-            
-            <div2 type="page-heading">
-               <head>SPACE RESERVED FOR SPECIAL COMMENT</head>
-            </div2>
-
-            <div2 type="margin">
-               <ab>
-                  <add hand="#AJC">
-                     <gap reason="image cut off on left margin"/>ily Service <gap reason="image cut off on left margin"/>d Girls Work <gap reason="image cut off on left margin"/>g World War. 
-                  </add>
-               </ab>
-            </div2>
-            
-            
-        
+             </div2>    
          </div1>
+         
          <pb n="6"/>
+         
+         <div1 type="section" n="IV">
+            <head>SPACE RESERVED FOR SPECIAL COMMENT</head>
+            <div2 type="extra"><note>This contains the overflow of questions 46 and 65, as well as questions 55, 59, and 61.</note></div2>
+         </div1>
+         
       </body>
    </text>
 </TEI>
