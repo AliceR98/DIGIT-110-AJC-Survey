@@ -42,16 +42,13 @@ padding: 10px;
 vertical-align:top;
 }
 
-table {
+table, th, td {
     border-style: solid;
 }
 
-td {
-    border-style: dashed solid dashed solid;
-}
-
-th {
-    border-style: solid;
+td.ajcAdd {
+    border-style: dashed;
+    background-color: #d6d6d6;
 }
 
 .unclear {

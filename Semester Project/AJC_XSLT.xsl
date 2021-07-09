@@ -68,7 +68,9 @@
     
     <xsl:template match="div2" mode="table">
         <tr>
-            <td><a href="#Q{@n}"><xsl:value-of select="@n"/></a></td>
+            <td><a href="#Q{@n}"><xsl:value-of select="@n"/></a>
+                <xsl:if test="@type='continuation'"><xsl:text> (cont.)</xsl:text></xsl:if>      
+            </td>
             <td>
                 <xsl:value-of select="ab/add/persName | table/row/cell/add/persName => sort()" separator=", "/>
             </td>
@@ -115,7 +117,14 @@
                         <td><xsl:apply-templates/></td>
                     </xsl:for-each>
                 </tr>     
-            </xsl:for-each>             
+            </xsl:for-each>
+            <xsl:if test="row[@rend='none']">
+                <tr class="ajcAdd">
+                    <xsl:for-each select="row[@rend='none']/cell">
+                        <td class="ajcAdd"><xsl:apply-templates/></td>
+                    </xsl:for-each>
+                </tr>     
+            </xsl:if>
         </table>
     </xsl:template>
     
