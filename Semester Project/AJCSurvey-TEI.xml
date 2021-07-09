@@ -62,10 +62,7 @@
                </ab>
             </div2>
             <div2 type="question" n="2">
-               <ab> 2. Present address <add hand="#AJC"><address>
-                        <street>201 T N.W.</street>
-                        <settlement type="city">Washington D.C.</settlement>
-                     </address></add>
+               <ab> 2. Present address <add hand="#AJC"><placeName> 201 T N.W. Washington D.C.</placeName></add>
                </ab>
             </div2>
             <div2 type="question" n="3">
@@ -311,21 +308,21 @@
             <div2 type="question" n="13">
                <ab> 13. Do you own your home? <add hand="#AJC">Yes</add> Value of home <add
                      hand="#AJC">18000</add> Other property owned <add hand="#AJC">Cottage in
-                     Raleigh N.C. 2 lots in upper mallboro Md.</add> Value <add hand="#AJC"
+                     <placeName>Raleigh N.C.</placeName> 2 lots in <placeName>upper mallboro Md.</placeName></add> Value <add hand="#AJC"
                      >Uncertain, two or three thousand perhaps.</add>
                </ab>
             </div2>
             <div2 type="question" n="14">
                <ab> 14. <del hand="#AJC" rend="strikethrough">Wife or</del>
                   <del hand="#AJC" rend="overwrite">h</del>Husband: Birthplace <add hand="#AJC"
-                     >Nassau British W.I.</add> Present occupation <add hand="#AJC">deceased</add>
+                     ><placeName>Nassau British W.I.</placeName></add> Present occupation <add hand="#AJC">deceased</add>
                   Education: (Draw circle around last grade completed) <add hand="#AJC">Educated for
                      Priest in the Eopiscopal Church.</add>
                   <lb/>Grammar school---1-2-3-4-5-6-7-8; High school---1-2-3-4;
                   College---1-2-3-4-5-6-7-8 <lb rend="1-L"/>Of what college or professional school a
-                  graduate <add hand="#AJC">St. Augustine's Divinity School</add> Degree <add
+                  graduate <add hand="#AJC"><orgName>St. Augustine's Divinity School</orgName></add> Degree <add
                      hand="#AJC" rend="2-L">Ordained Deacon &amp; passed examinations for the
-                     priesthood under Bishop Lyman Bp of N.C.</add>
+                     priesthood under <persName>Bishop Lyman Bp</persName> of <placeName>N.C.</placeName></add>
                </ab>
             </div2>
             <div2 type="question" n="15">
@@ -464,7 +461,7 @@
                </ab>
             </div2>
             <div2 type="question" n="18">
-               <ab> 18. Mother: Birthplace <add hand="#AJC">Raleigh N.C.</add> Present occupation
+               <ab> 18. Mother: Birthplace <add hand="#AJC"><placeName>Raleigh N.C.</placeName></add> Present occupation
                      <add hand="#AJC"> deceased</add>
                   <lb/>Education: (Draw circle around last grade completed) <lb/>Grammar
                   school---1-2-3-4-5-6-7-8; High School---1-2-3-4; College---1-2-3-4-5-6-7-8 <lb/>Of
@@ -474,7 +471,7 @@
             <div2 type="question" n="19">
                <ab rend="2-L"> 19. What was the attitude of your parents towards your college
                   education? <add hand="#AJC" rend="3-L">I owe nothing to my white father beyond the
-                     inital act of procreation. My mother's self sacrificing <unclear>toil</unclear>
+                     inital act of procreation. My mother's self sacrificing <unclear><supplied>toil</supplied></unclear>
                      to give me ad-vantages she had never enjoyed is worthy the highest praise &amp;
                      undying gratitude.</add>
                </ab>
@@ -510,7 +507,7 @@
                         Smith</surname></persName>, founder, I was made pupil teacher at the age of
                      8, first for board &amp; tuition<gap reason="image cut off on right margin"/>
                      <lb/>Teaching &amp; studying, married &amp; widowed in this <q>world</q> of a
-                     church schoolI think the preparation for <gap
+                     church school I think the preparation for <gap
                         reason="image cut off on right margin"/><lb/> may pass as <q>good</q> for
                      the time in that I was admitted on examination with some praise to the
                      Sophomore <gap reason="image cut off on right margin"/> Enrance exams, in the
@@ -608,11 +605,11 @@
                </ab>
             </div2>
             <div2 type="question" n="31">
-               <ab rend="2-L"> 31. What faculty members proed most stimulating to you? (Give names
-                  and position of faculty)<add hand="#AJC" rend="2-L">President Fairchild, Prof.
-                     Churchill, Tutor (Now Ex-Pres.) King of Berlin,
-                           Paul-<unclear><supplied>Prival</supplied></unclear> Deschauel, C Cestre
-                     Saquac</add>
+               <ab rend="2-L"> 31. What faculty members proved most stimulating to you? (Give names
+                  and position of faculty)<add hand="#AJC" rend="2-L"><persName>President Fairchild</persName>, <persName>Prof.
+                     Churchill</persName>, Tutor (Now Ex-Pres.) King of Berlin,
+                           <persName>Paul-<unclear><supplied>Prival</supplied></unclear> Deschauel</persName>, <persName>C Cestre
+                     Saquac</persName></add>
                </ab>
             </div2>
             <div2 type="question" n="32">
@@ -751,7 +748,7 @@
                      breadth &amp; real cathoicity of the <lb/><orgName>Oberlin</orgName> spririt the friendly contacts
                      &amp; <unclear><supplied>aider</supplied></unclear> study had the inevitable
                      result which I consider humaniging of <unclear><supplied>sues</supplied></unclear>
-                     <lb/><gap reason="image cut off on right margin"/>wrehiauity." </add>
+                     <lb/><gap reason="image cut off on right margin"/><unclear><supplied>wrehiauity</supplied></unclear>." </add>
                </ab>
             </div2>
             <div2 type="question" n="38">
@@ -792,7 +789,7 @@
                      <lb/><persName>Dr Swedes</persName>, the Prin. underwhom I had taught <lb/>before leaving for
                      College &amp; who had engaged my services to return was at that juncture
                      suferseded by <persName>Dr Suttou</persName> who <lb/>wanted to change the contract from "Professor"
-                     to "teacher in charge of Girls." I refued. </add>
+                     to "teacher in charge of Girls." I refused. </add>
                </ab>
             </div2>
             <div2 type="question" n="44"> 
@@ -821,7 +818,8 @@
                   <add hand="#AJC">
                      <lb/>During my principalship of <orgName>MSt. H.S.</orgName> the colored prisc. was under the white
                      <lb/>Director of High Schools. At a meeting of principals she was told where the question of scholarships in colleges came up, that
-                     <lb/>her graduates were not eligible to try for them. The Director at the same time recommended to Congress that a <gap reason="image cut off on right margin"/>
+                     <lb/>her graduates were not eligible to try for them. The Director at the same time recommended to Congress that a <note resp="#alr">This continues on the
+                        last page.</note>
                   </add>
                </ab>
             </div2>
@@ -867,7 +865,7 @@
                   <add hand="#AJC">
                      <lb/>"Learned Societies" do not seek colored
                      <lb/>workers. Wanting some help in researches I contemplated for a history of the negroes of <placeName>Washington</placeName>
-                     <lb/>I applied to the <orgName>Brookings Inst. for Research</orgName> also to the Amercan graduate School here of wh.<unclear><supplied> Dr. Ed wd Devine</supplied></unclear> was 
+                     <lb/>I applied to the <orgName>Brookings Inst. for Research</orgName> also to the Amercan graduate School here of wh.<persName><unclear><supplied> Dr. Ed wd Devine</supplied></unclear></persName> was 
                      <lb/>then Dean. Both schools <unclear><supplied>nhised</supplied></unclear> the color bar &amp; <persName>Dr. Devine</persName> soon afterwards resigned.
                   </add>
                </ab>
@@ -986,7 +984,7 @@
                <ab rend="3-L">
                   62. In what racial movements are you actively interested?
                   <add hand="#AJC">
-                     National R. Association
+                     <orgName>National R. Association</orgName>
                   </add>
                </ab>
             </div2>
@@ -1009,11 +1007,11 @@
             </div2>
             <div2 type="question" n="65">
                <ab rend="4-L">
-                  65. Have you a <q>racial philosophy</q> that can be briefly stated?
-                  <add hand="#AJC">My <q>racial philosophy</q> is not far removed <lb/>from my
+                  65. Have you a "racial philosophy" that can be briefly stated?
+                  <add hand="#AJC">My "racial philosophy" is not far removed <lb/>from my
                      general philosophy of life: that the greatest happiness comes from altruistic
                      service—&amp; this <lb/>is in reach of all of whatever race &amp; condition.
-                     The <q>Service</q> here meant it is not a pious idea of <hi rend="underline"
+                     The "Service" here meant it is not a pious idea of <hi rend="underline"
                         >being used;</hi>
                      <lb/>any sort of exploitation whether active or passive is to my mind hateful.
                      Nor is the <q>Happiness</q> a mere bit.<note resp="#ebb">This continues on the
@@ -1027,9 +1025,9 @@
                      <lb/><persName>Dr S.G. Atkins</persName><persName>Prin. Winston-Salemalnot</persName>, <persName>N.C</persName>
                      <lb/><persName>Mrs. Nannie/Delaney</persName>(widow <persName>Bishop Delaney</persName>) 80 Edgecomb Ave, New York City Dean of Wisk
                      <persName>Mrs. Jane Thomas Caspar</persName>Ave. A Huntersville Norfolk VA. Former teacher social 
-                     <lb/><persName>Mrs. M.E. Neale</persName>/<persName>Mrs. Doctor Luentin</persName> 1315 Lynne Ave, Pawhuska Okla
-                     <lb/>while[<persName>Mrs. Anna Metcalf Root</persName> 333 East 53d St. New York City] B.A. Oberlin 1884
-                     <lb/><persName>Mrs. Professor Auderegg</persName>207 East College St. Oberlin O. Conservatory Oberlin 1885
+                     <lb/><persName>Mrs. M.E. Neale</persName>/<persName>Mrs. Doctor Luentin</persName> <placeName>1315 Lynne Ave, Pawhuska Okla</placeName>
+                     <lb/>while[<persName>Mrs. Anna Metcalf Root</persName> <placeName>333 East 53d St. New York City</placeName>] B.A. Oberlin 1884
+                     <lb/><persName>Mrs. Professor Auderegg</persName><placeName>207 East College St. Oberlin O. Conservatory Oberlin 1885</placeName>
                   </add>
                </ab>
             </div2>
@@ -1062,10 +1060,10 @@
             
             <div2 type="continuation" n="46">
                <ab>46 cont.) <add hand="#AJC"><lb/>different cirriculum be granted the colored High School whose pupils he said were not capable of doing the regular work. Insubordination was changed &amp;
-                  <lb/>effectively pressed when the Principal sent to Harvard, Yale, Brown, &amp; Oberlin
+                  <lb/>effectively pressed when the Principal sent to <orgName>Harvard</orgName>, <orgName>Yale</orgName>, <orgName>Brown</orgName>, &amp; <orgName>Oberlin</orgName>
                   <lb/>students directly from them St. classes who passed successfully their entrance
-                  <lb/>exams, some with high honors. The first time in its history the Colored H.S. of Wask
-                  <lb/>was listed as "accredited" by Harvard &amp; given the certificate privilege. For which
+                  <lb/>exams, some with high honors. The first time in its history <orgName>the Colored H.S. of Wask</orgName>
+                  <lb/>was listed as "accredited" by <orgName>Harvard</orgName> &amp; given the certificate privilege. For which
                   <lb/>unpardonable "Sin" against racial supremacy said principal suffers
                   <lb/>to this day the punishment of the damned from both the white masters &amp; the colored understaffers.
                </add></ab>
@@ -1114,7 +1112,7 @@
                   work has <lb/>always been the soul that beckoned me on, leaving no room for blase
                   philosophizing &amp; <lb/>rebellious resentment &amp; with just enough opposition
                   to give zest to the struggle, just enough hope of scoring <gap
-                     reason="image cut off on left marging"/><supplied resp="#ebb"
+                     reason="image cut off on left margin"/><supplied resp="#ebb"
                         >so</supplied>mewhere among the winners to keep my head "unbowed tho bloody."</add></ab>
             </div2>
          </div1>
