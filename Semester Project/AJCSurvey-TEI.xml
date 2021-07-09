@@ -317,7 +317,7 @@
                   <del hand="#AJC" rend="overwrite">h</del>Husband: Birthplace <add hand="#AJC"
                      ><placeName>Nassau British W.I.</placeName></add> Present occupation <add hand="#AJC">deceased</add>
                   Education: (Draw circle around last grade completed) <add hand="#AJC">Educated for
-                     Priest in the Eopiscopal Church.</add>
+                     Priest in the <orgName>Eopiscopal Church</orgName>.</add>
                   <lb/>Grammar school---1-2-3-4-5-6-7-8; High school---1-2-3-4;
                   College---1-2-3-4-5-6-7-8 <lb rend="1-L"/>Of what college or professional school a
                   graduate <add hand="#AJC"><orgName>St. Augustine's Divinity School</orgName></add> Degree <add
@@ -510,15 +510,15 @@
                      church school I think the preparation for <gap
                         reason="image cut off on right margin"/><lb/> may pass as <q>good</q> for
                      the time in that I was admitted on examination with some praise to the
-                     Sophomore <gap reason="image cut off on right margin"/> Enrance exams, in the
-                     Anabasis, the Iliad <abbr>Caes</abbr>
+                     Sophomore c<supplied><note>words continue onto the next page of the survey</note>lass of Oberlin</supplied>
+                     <lb/>Entrance exams, in the Anabasis, the Iliad <abbr>Caes</abbr>
                      <abbr>Cic</abbr><!--ebb: I think these are abbreviations for Caesar and Cicero, which used to be taught a lot in a classics (ancient Greek/Roman literature) curriculum in the late 19th-century.-->,
-                     Plane &amp; Solid Geometry<gap reason="image cut off on right margin"
-                     /><lb/>Conditioned in Trig. Mechanics, Physics, Hist. of Civilization <metamark
+                     Plane &amp; Solid Geometry <supplied><note>words continue onto the next page of the survey</note> Passed.</supplied>
+                     <lb/>Conditioned in Trig. Mechanics, Physics, Hist. of Civilization <metamark
                         rend="short-connecting-line"/><add place="below">&amp; Science of
                         Government</add>, the Odyssey made up
                         <unclear><supplied>in</supplied></unclear> one yea<supplied
-                        reason="image cut off on right margin">r</supplied>
+                        reason="image cut off on right margin">r <note>words continue onto the next page of the survey</note> <unclear>to entrance conditions in</unclear>.</supplied>
                   </add>
                </ab>
             </div2>
@@ -744,11 +744,12 @@
                   personalities or the religious atmosphere of your school? <add hand="#AJC">
                      <lb/>I entered <orgName>Oberlin</orgName> a bigoted "Churchman". I left not the slightest attempt
                      at <unclear><supplied>proselyting</supplied></unclear>. Kyo<gap reason="image cut off on right margin"/>
-                     <lb/>altho I continued to attend the little Episeopal Church relgiously the
-                     breadth &amp; real cathoicity of the <lb/><orgName>Oberlin</orgName> spririt the friendly contacts
-                     &amp; <unclear><supplied>aider</supplied></unclear> study had the inevitable
-                     result which I consider humaniging of <unclear><supplied>sues</supplied></unclear>
-                     <lb/><gap reason="image cut off on right margin"/><unclear><supplied>wrehiauity</supplied></unclear>." </add>
+                     <lb/>altho I continued to attend the little Episcopal Church religiously the
+                     breadth &amp; real catholicity of the 
+                     <lb/><orgName>Oberlin</orgName> spirit the friendly contacts
+                     &amp; wider study had the inevitable
+                     result which I consider humanizing of one's
+                     <lb/><gap reason="image cut off on left margin"/><supplied>"ch</supplied><unclear><supplied>urchianity</supplied></unclear>." </add>
                </ab>
             </div2>
             <div2 type="question" n="38">

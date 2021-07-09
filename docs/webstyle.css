@@ -64,6 +64,10 @@ td.ajcAdd {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
+.supplied {
+    background-color: #fdf8a1;
+}
+
 .top {
     font-size: 70%;
     line-height: 70%;

@@ -24,7 +24,7 @@
                     <hr/>
                     <div id="menu">
                         <a href="index.html">Main</a> <a href="aboutSection.html">About</a>
-                        <a href="AJC-output.html">Transcription</a><a href="document.html">Original Document</a> <a href="originalCode.html">Source Code</a>
+                        <a href="AJC-output.html">Edition</a><a href="document.html">Original Document</a> <a href="originalCode.html">Source Code</a>
                         <a href="projectInfo.html">Project Information</a>
                     </div>
                     <hr/>
@@ -157,6 +157,12 @@
     
     <xsl:template match="note">
         <span class="note"><xsl:apply-templates/></span>
+    </xsl:template>
+    
+    <xsl:template match="supplied[not(parent::unclear)]">
+        <span class="supplied">
+            <xsl:apply-templates/>
+        </span>
     </xsl:template>
     
     <xsl:template match="space">
