@@ -68,17 +68,17 @@
     
     <xsl:template match="div2" mode="table">
         <tr>
-            <td><a href="#Q{@n}"><xsl:value-of select="@n"/></a>
-                <xsl:if test="@type='continuation'"><xsl:text> (cont.)</xsl:text></xsl:if>      
+            <td>
+                <a href="#Q{@n}"><xsl:value-of select="@n"/></a>      
             </td>
             <td>
-                <xsl:value-of select="ab/add/persName | table/row/cell/add/persName => sort()" separator=", "/>
+                <xsl:value-of select="descendant::ab/add/persName | descendant::table/row/cell/add/persName => sort()" separator=", "/>
             </td>
             <td>
-                <xsl:value-of select="ab/add/orgName | table/row/cell/add/orgName => sort()" separator=", "/>
+                <xsl:value-of select="descendant::ab/add/orgName | descendant::table/row/cell/add/orgName => sort()" separator=", "/>
             </td>
             <td>
-                <xsl:value-of select="ab/add/placeName | table/row/cell/add/placeName => sort()" separator=", "/>
+                <xsl:value-of select="descendant::ab/add/placeName | descendant::table/row/cell/add/placeName => sort()" separator=", "/>
             </td>
         </tr>
     </xsl:template>
@@ -102,6 +102,23 @@
             <p class="top"><a href="#table">Back to table &#8593;</a></p>
         </div>     
         <br/>
+    </xsl:template>
+    
+    <xsl:template match="div3">
+        <xsl:choose>
+            <xsl:when test="ab">
+                <xsl:apply-templates/>   
+            </xsl:when>
+            <xsl:when test="table">
+                <xsl:apply-templates select="table"/>
+            </xsl:when>
+            <xsl:when test="list">
+                <div class="list"><xsl:apply-templates select="list"/></div>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+        </xsl:choose> 
     </xsl:template>
 
     <xsl:template match="table">
@@ -199,6 +216,10 @@
         <span class="orgName">
             <xsl:apply-templates/>
         </span>
+    </xsl:template>
+    
+    <xsl:template match="q">
+        “<xsl:apply-templates/>”
     </xsl:template>
     
     <xsl:template match="hi">
