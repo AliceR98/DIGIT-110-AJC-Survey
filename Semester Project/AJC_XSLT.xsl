@@ -230,6 +230,9 @@
             <xsl:when test="@rend='underline'">
                 <u><xsl:apply-templates/></u>
             </xsl:when>
+            <xsl:when test="@rend='superscript'">
+                <sup><xsl:apply-templates/></sup>
+            </xsl:when>
             <xsl:otherwise>
                 <xsl:apply-templates/>
             </xsl:otherwise>
